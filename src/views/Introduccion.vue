@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span
           i.fas.fa-info
@@ -13,7 +13,7 @@
       .col-lg-5.col-8
         img.mb-lg-0.mb-3(src="@/assets/curso/temas/introduccion/introduccion.svg" alt="")
       .col-lg-7.col-12
-        .cajon.color-secundario.p-4.mb-4
+        .cajon.color-secundario.p-4.mb-5.pri
           p.mb-0 En este componente se abordarán los conceptos y fundamentos del proceso de extracción, transformación y carga de datos, con el fin de procesar la información para la visualización y análisis, que permita la toma de decisiones. A continuación se presenta un video que contextualiza al respecto: 
 
 

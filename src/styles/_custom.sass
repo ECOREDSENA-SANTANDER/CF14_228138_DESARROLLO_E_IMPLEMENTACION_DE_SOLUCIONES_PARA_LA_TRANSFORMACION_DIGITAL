@@ -12,6 +12,12 @@
     width: 120px
     height: 120px
 
+.banner-principal .tarjeta 
+    background-color: #010b12
+    background-size: cover
+    background-position: left
+
+
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -19,15 +25,28 @@
   100%
     transform: translateY(0px)
 
-.bloque-texto-b.extra:before
-  content: ''
-  display: block
-  position: absolute
-  opacity: .30
-  top: -1%
-  bottom: 140px
-  left: 65%
-  right: 0  
+
+.bloque-texto-b.extra:before 
+    content: ''
+    display: block
+    position: absolute
+    opacity: .30
+    top: 13%
+    bottom: 118px
+    left: 67%
+    right: 0
+
+.bloque-texto-b.extrax:before 
+    content: ''
+    display: block
+    position: absolute
+    opacity: .30
+    top: 17%
+    bottom: 35px
+    left: 68%
+    right: 0
+
+
 
 .img:before
   position: absolute
@@ -40,10 +59,13 @@
 .bg-50
   background-color: #FFEEEB
   border-radius: 20px
+  margin-bottom: 2rem !important
+
 
 .bg--piel.br_cstm
   background-color: #E4FAF4
-  border-radius: 20px
+  border-radius: 0% 20px 20px 0%
+  padding: 2rem !important;
 
 .bg-51
   background-color: #F3F9FF
@@ -51,9 +73,14 @@
 .bg_cta
   background-color:#0A4E6A 
   border-radius: 10px
-  
+
+.bg21
+  background-color: #F3F9FF
+  border-radius: 10px
+
 .BG13
-  background-color:#FFE9E6 
+  background-color:#FFE9E6
+  border-radius: 8px 
 
 .color-secun
   background-color:#E8FAF6 
@@ -69,7 +96,7 @@
 
 .bg-49
   background-color: #E4E8EA
-  border-radius: 0px
+  border-radius: 8px
 
 .th
   background-color: #FF6148
@@ -83,13 +110,15 @@
 
 .color-secu
   background-color: #FFF3EA
+  border-radius: 8px
 
 .bg-55
-  background-color: #C9E8E0
-  border-radius: 0px 
+  background-color: #FEEAD9
+  border-radius: 8px 
 
 .color-se
   background-color:#FFE9E6 
+  border-radius: 8px
 
 .color-bloq
   background-color: #EEF1F2
@@ -108,12 +137,12 @@
   background-color: #FFE5CF
 
 .color-secundari
-  background-color: #FFC8BF
+  background-color: #FEE9E6
   border-radius: 10px
   padding: 10px
 
 .bg--piel.br
-  background-color: #CCD5D8
+  background-color: #E8E8E8
   border-radius: 10px
   padding: 10px
 
@@ -137,8 +166,323 @@
 
 .color-serv
   background-color: #FFECDC  
-
+  border-radius: 8px
 
 .color-sek
   background-color:#FFE5CF 
   
+.row.min
+    --bs-gutter-x: -0.5rem
+    --bs-gutter-y: 0
+
+
+.my-5.car 
+    margin-top: 5rem !important
+    margin-bottom: 3rem !important
+
+.linea-tiempo-c__header__btn--right
+  background-color: #FF6148
+.linea-tiempo-c__header__btn--right:hover
+  border-color: #FF6148
+.linea-tiempo-c__header__btn--left
+  background-color: #FF6148
+.linea-tiempo-c__header__btn--left:hover
+  border-color: #FF6148
+.linea-tiempo-c__header__btn i, .linea-tiempo-c__header__btn--left i, .linea-tiempo-c__header__btn--right i, .pasos-b__header__btn--left i, .pasos-b__header__btn--right i
+  color: white
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  border: 2px solid #fff
+.tarjeta--transparent 
+    background-color: transparent
+.bg-norepeat
+    background-repeat: no-repeat
+.border-20-cus
+  border-radius: 10px
+.ml-1-custom
+  margin-left: 0.5rem !important;
+  margin-bottom: -3em;
+
+
+  
+.ml-neg-cus
+  margin-left: -20px
+
+.img-a
+  display: block
+  margin: auto
+
+.img-t
+  width: auto
+  height: auto
+
+.figure.esquina
+  margin: -36px
+  margin-top: -33px
+.my-3.ted 
+  margin-top: 2rem !important
+  margin-bottom: -2rem !important
+
+
+.bg11
+  background-color: #FFEEEB
+  border-radius: 6px
+  &:hover
+    background-color: #FEF7F6
+.bg11:hover .bg12
+  background-color: #fff
+.bg-white
+  background-color: #fff 
+.wd-80-cus
+  width: 100%
+
+.he-2-cus 
+    height: 120px
+
+
+.fondoo
+  background: url('../assets/curso/temas/tema1/fondoo.png')
+  background-size: 100% 90%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem 
+
+.color-pri
+  background-color: #fff
+  height: 280px
+
+.cajon.color-secundario.cajaa
+  border-radius: 10px
+
+.cajon.color-secundario.cajaa::before 
+    content: ""
+    display: block
+    width: 25px
+    height: 0px
+    position: absolute
+    top: 0px
+    left: 0px
+
+.lista-ul
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem  
+      background-color: #FF6148
+
+.cajon.cajas
+  background-color: #F3F9FF
+  border-radius: 10px
+  --bs-gutter-x: 0rem
+
+.bg191
+  background-color: #FFE5CF
+  border-radius: 13px
+  &:hover
+    background-color: #FFB476
+.bg191:hover .bg12 
+  background-color: #FFB476
+.bg-white
+  background-color: white
+.he-6-cus 
+    height: 330px
+
+.w-auto-cus
+  width: fit-content
+
+.fondo21
+    border-radius: 10px
+    background: rgba(10,78,106,1);
+    background: -moz-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(10,78,106,1)), color-stop(100%, rgba(2,10,13,1)));
+    background: -webkit-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: -o-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: -ms-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: linear-gradient(to bottom, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a4e6a', endColorstr='#020a0d', GradientType=0 );
+
+.mt-20
+    margin-top: 1rem !important
+
+.ml-1-custome 
+    margin-left: 0.5rem !important
+    margin-bottom: 1em
+  
+  
+.fondoos
+  background: url('../assets/curso/temas/tema2/fondoos.png')
+  background-size: 100% 95%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem 
+    border-radius: 10px
+
+.cajac.color-secundario
+  background-color: #FFECDC
+  border-radius: 10px
+
+
+
+.slyder-a__bullets__item--active
+  background-color: #FF6148 !important
+  border: 1px solid #FF6148 !important
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FF6148
+.slyder-a__bullets__item
+  background-color: #AFAFAF 
+  border: 1px solid #AFAFAF
+.slyder-a__btn--sigt:hover, .slyder-a__btn--atrs:hover
+  border-color: #FF6148
+
+.bloque-texto-g__img
+  border-radius: 20px
+
+.cajon.color-secunda
+  border-radius: 10px
+
+.bloque-texto-g__texto
+  border-radius: 20px
+
+.bloque-texto-g.color-acento-contenido
+  border-radius: 20px
+
+
+.bloque-texto-g.col.color-acento-contenido
+  border-radius: 0px
+
+.bloque-texto-g__img.col
+  border-radius: 0px
+
+.fon
+  background: url('../assets/curso/temas/tema4/fon.png')
+  background-size: 100% 90%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  background-position: center
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem 
+    
+
+.bloque-texto-a:before 
+    content: ''
+    display: block
+    position: absolute
+    top: 0%
+    bottom: 0%
+    left: 35%
+    right: 0%
+
+.w-75-cus
+  width: 64%
+
+.bloque-texto-a.color-acento-contenido
+  background-color: #FFEAD9
+
+
+.my-1.jar
+    margin-top: 0.25rem !important
+    margin-bottom: 6.25rem !important
+
+.mb-5.pri
+    margin-bottom: 7rem !important
+
+.bg-card
+  background-position: center
+  background-size: cover !important
+  background-repeat: no-repeat
+  &:hover
+    background-position: center
+    background-size: cover !important
+    background-repeat: no-repeat
+
+
+.fondo211
+    border-radius: 10px
+    background: rgba(10,78,106,1);
+    background: -moz-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(10,78,106,1)), color-stop(100%, rgba(2,10,13,1)));
+    background: -webkit-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: -o-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: -ms-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: linear-gradient(to bottom, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a4e6a', endColorstr='#020a0d', GradientType=0 );
+
+.acordion.activo .acordion__activo
+  background-color:#FFF3EA
+  .acordion__accion__btn--a
+    background-color: #FFB476   
+
+.acordion 
+  .acordion__accion__btn--a 
+    background-color: #2EFEC7
+    box-shadow: 0px 3px 5px 0px rgba(17, 30, 97, 0.3);
+
+
+.fondoaa
+  background-color: #2EFEC7
+  border-radius: 10px
+  padding: -3rem !important
+
+.pa
+  width: 70%
+
+.po
+  width: 93%
+  margin: 25px
+
+.bg-555
+  background-color: #E8E8E8
+  border-radius: 8px
+
+.color-priimario
+  background-color: #FFB476
+  border-radius: 10px
+
+.color-acento-contenidot
+  background-color: #FFE5CF
+  border-radius: 10px
+
+.tarjeta--container.parr
+  border-radius: 10px
+
+.tabla-a thead
+  border-top: #FFF3EA  solid 5px !important
+  background-color: #FF6148
+
+.gra
+  background-color: #F6F6F6
+  border: 2px solid #D0D0D0
+  padding: 1.75em
+
+.gre
+  background-color: #E8E8E8
+  border: 2px solid #D0D0D0
+  padding: 1.75em
+  
+.margen
+  border-right: 10px; width: 200px !important
+
+.tarjeta--container .tarjetas
+  border-radius: 0% 20px 20px 0%
+
+.boton.colores-acento-botones
+  background-color: #083142
+  margin-right: -7rem !important
+  margin-left: 2rem !important
+.iggg
+  width: 80px
+
+.bg--piel.br
+  height: 420px
+.tarjeta.color-secundari
+  height: 420px
+
+.itt
+  width: 100px
+  margin-right: 1rem !important;
+  margin-left: 25rem !important;
