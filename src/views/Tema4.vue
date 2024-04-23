@@ -17,7 +17,7 @@
         .cajon.BGR07.p-2.mb-0
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-2.p-4
-              img(alt="" src="@/assets/curso/temas/tema4/img1.svg")
+              img.d-none.d-lg-block(alt="" src="@/assets/curso/temas/tema4/img1.svg")
             .col-lg-9.col-8
               p.mb-0 La bodega de datos es una estructura diseñada y desarrollada para almacenar y procesar datos de múltiples fuentes y centralizadas para la elaboración de reportes y datos analíticos.
               
@@ -66,7 +66,7 @@
                   p Las tendencias y estar pendiente de las nuevas herramientas de los proveedores de computación en la nube ayudan a estar a la vanguardia en la implementación de herramientas tecnológicas y permanece competitivo alineándose a las necesidades de los nuevos clientes, cada día con más opciones por ofertas de la competencia haciéndolos al tiempo más y más exigentes pretendiendo soluciones ágiles y eficientes.
               .mb-4
               p.mb-2 En el proceso mediante el cual la empresa u organización #[b obtiene, procesa y analiza la información de mercado o de la industria en la que compite] conformada por fuentes secundarias puede contener información clave de los clientes, los productos de la competencia, la venta de estos productos, información sobre participación de mercados y perfiles de los clientes, o información específica sobre los posibles canales de distribución como tipos de establecimientos, ubicación geográfica, frecuencias de compra, tamaño o superficie, cantidades de compra con miras a usarla como soporte de sus planes de mercadeo y planeación comercial.
- 
+
           .row.justify-content-center.align-items-center
             .col-lg-8.col-md-10.col-12
               p Esta información es elaborada por entidades públicas o privadas, instituciones académicas o empresariales que buscan ampliar el conocimiento del sector o brindar cifras estadísticas del comportamiento de las variables. Para el caso colombiano hay empresas como Nielsen, Meiko o Servinformación que se dedican a procesos de investigación de mercados para posteriormente comercializar esta información a empresas interesadas en adquirirla. Brindando información sobre georreferenciación, aspectos demográficos, psicográficos y conductuales.
@@ -78,19 +78,19 @@
       h2 4.2  Hechos, dimensiones
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-12.col-12
+      .col-lg-12.col-md-10.col-12
         p.mb-0 Las bodegas de datos están representadas en una base de datos que por lo general son de tipo SQL con un diseño Dimensional, es decir, cada Datamart cuenta con una tabla de hechos y otras tablas a modo de catálogos que se denominan dimensiones. A continuación.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")      
-      .col-lg-10.col-12
+      .col-sm-12.col-lg-10
         .cajon.color-secu.p-4.mb-lg-0.mb-3
           p.mb-3.my-4.mx-4 #[b Las tablas de hechos (Fact):]representan los eventos que suceden en determinado contexto-tiempo. Se caracterizan por permitir el análisis de los datos con el máximo detalle, son tablas que no tienen medida y suelen ser tablas más robustas, que contienen miles o millones de registros; además son las que más se actualizan. Por esta razón, cuando las transacciones en los sistemas OLTP son de manera masiva, se debe aplicar ingeniería de optimización de hechos, ya sea traer datos por periodo (snapshot), tablas agregadas, particionadas, etc.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in")
-      .col-lg-8.mb-3.mb-lg-0
+      .col-sm-12.col-lg-8.mb-3.mb-lg-0
         .bg-555.p-4
           .row.justify-content-center.mx-4
-            .col-lg-10.col-8
+            .col-sm-12.col-lg-10
               p.my-4 Almacenar este tipo de datos requiere una infraestructura robusta, pues en estas contienen la historia de las organizaciones y debe estar en permanente actualización.
             .col-lg-2
               img.my-3(src='@/assets/curso/temas/tema4/img6.svg', alt='imagen decorativa') 
@@ -124,7 +124,7 @@
               p.mb-0 #[b OLAP ( OnLine Analytical Processing ]- Procesamiento Analítico en Línea): se refiere a una estructura multidimensional que contiene información con objetivos analíticos; se compone principalmente de dimensiones y medidas. Las dimensiones definen la estructura del cubo que se utiliza para segmentar y dividir los datos, y las medidas proporcionan valores numéricos.
         
     .mb-4
-    p.mb-0 Como estructura lógica, un cubo permite a una aplicación cliente recuperar valores de medidas, como si estuvieran almacenados en las celdas del cubo, adicional se presentan estructuras por jerarquía de datos que podrían definir de alguna manera la profundidad o detalle de las consultas; el ejemplo más común de datos jerárquicos es el tiempo, que tiene año, trimestre, mes, semana, día; esto puede definir el detalle de los reportes.
+    p.mb-4 Como estructura lógica, un cubo permite a una aplicación cliente recuperar valores de medidas, como si estuvieran almacenados en las celdas del cubo, adicional se presentan estructuras por jerarquía de datos que podrían definir de alguna manera la profundidad o detalle de las consultas; el ejemplo más común de datos jerárquicos es el tiempo, que tiene año, trimestre, mes, semana, día; esto puede definir el detalle de los reportes.
     
     .row.justify-content-center.align-items-center.mb-0.my-0(data-aos="fade-right")      
       .col-lg-8.col-12.my-0
@@ -132,7 +132,7 @@
           p.mx-0.my-0 #[b Las aplicaciones OLAP] son uno de los pilares de cualquier solución de Inteligencia de Negocios, debido a que provee información sumarizada a los que toman las decisiones, mediante métodos convenientes de navegación que les permiten analizar y mantener una conversación fluida con los datos de la organización, en óptimos tiempos de respuesta.
         p.mb-5.my-3 Parte de la utilidad de los cubos de datos es que podrían ser consumidos por cada área del negocio, es decir, por cada departamento o área tener acceso a sus datos específicos y construir sus reportes en una aplicación local ya sea Excel, Power BI, Tableau u otro disponible.
       .col-lg-4.col-8
-        img.mx-0.my-1.jar(alt="" src="@/assets/curso/temas/tema4/img9.png")
+        img.mx-0.my-1.jar.d-none.d-lg-block(alt="" src="@/assets/curso/temas/tema4/img9.png")
 
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-lg-9.mb-3.mb-lg-0
@@ -187,7 +187,7 @@
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-lg-1.col-12
-        img(src="@/assets/curso/temas/tema4/puntos.svg" alt="")
+        img.d-none.d-lg-block(src="@/assets/curso/temas/tema4/puntos.svg" alt="")
       .col-lg-11.col-12
           p.mb-0.parra Un elemento indispensable para la gestión de los datos en las organizaciones es determinar área por área los métodos y tecnologías que usan para la captura de los registros o de los hechos de cada departamento. Algunos requisitos de captura de datos de todas las áreas deberán cumplir con los siguientes parámetros:
     

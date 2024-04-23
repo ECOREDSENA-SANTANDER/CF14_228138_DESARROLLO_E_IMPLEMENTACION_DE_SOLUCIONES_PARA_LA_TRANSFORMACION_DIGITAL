@@ -67,19 +67,19 @@
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-10
         .fondo21.p-3.mb-5(data-aos="zoom-in")
-          .row.justify-content-around.align-items-center
+          .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-2.mx-5
-              img.my-3(src="@/assets/curso/temas/tema2/open.svg")
+              img.my-3.d-none.d-lg-block(src="@/assets/curso/temas/tema2/open.svg")
 
             .col
-              .row.justify-content-between.align-items-center
+              .row.justify-content-center.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.text-white.mb-1 Funcionalidades Open Refine          
                   p.text-white.mb-1 Configuración básica de la interfaz de usuario de OpenRefibe
                 .col-sm-auto
                   a.boton.color-acento-botones.mx-5(href="https://www.youtube.com/watch?v=tzXExfZCA1w&feature=youtu.be" target="_blank")
                     span Ver Video
-                    i.fas.fa-play
+                    i.fab.fa-youtube
 
     p.mb-4  Su uso es relativamente fácil, lo importante es tener claridad de los conceptos y funcionalidades que se requieren. Para la transformación y refinamiento de datos usa su propio lenguaje #[em (General Refine Expression Language -GREL),] sin embargo, como ventaja, se puede seleccionar entre otras opciones de lenguajes para codificar las expresiones de transformación de datos.           
     p.mb-4 #[b La aplicación permite adicionar columnas basadas en expresiones, dividir campos, ordenar, quitar columnas, reorganizarlas, renombrarlas y realizar otras transformaciones.]
@@ -106,7 +106,7 @@
         .BG13.p-4.mb-3
           p.mb-0 Enfocándose en el proceso de refinamiento, al cual se denomina wrangle, usa su herramienta llamada ReportMiner, la cual suele ser muy buena, entre otras características, permite incluso extraer y hacer wrangle a archivos PDF y otras fuentes de datos. 
         .d-flex.align-items-center.justify-content-center
-          img.img-a.img-t(src='@/assets/curso/temas/tema2/pun.svg', alt='')
+          img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/temas/tema2/pun.svg', alt='')
           p.mt-20.mx-3 En apartados siguientes, cuando se hable de herramientas para ETL, se mencionará de nuevo esta herramienta que, sin duda, debe estar entre el ramillete de opciones para las empresas que deseen entrar en la tendencia de la inteligencia de negocio.
     
       .col-lg-4.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
@@ -140,15 +140,15 @@
                 i.fas.fa-chevron-right
                 p Costos en almacenamiento y seguridad en la información, tanto para su acceso, su conservación y disponibilidad.
       
-      .row.justify-content-center.mb-4(data-aos="zoom-in")
-        .col-lg-10.mb-3.mb-lg-0
-          .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 2
-            span Ventajas de implementar Datos Maestros en los sistemas de información   
-        .col-lg-5.col-8
-          img.mb-lg-5.mb-3(alt="" src="@/assets/curso/temas/tema2/img7.svg")
-      .row
-        .col-lg-12.col-8
+        .row.justify-content-center.mb-4(data-aos="zoom-in")
+          .col-lg-10.mb-3.mb-lg-0
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Figura 2
+              span Ventajas de implementar Datos Maestros en los sistemas de información   
+          .col-lg-5.col-8
+            img.mb-lg-5.mb-3(alt="" src="@/assets/curso/temas/tema2/img7.svg")
+      .row.align-items-center
+        .col-sm-12.col-lg-12
           p.mb-5.mx-5 Se deben tener presentes estas ventajas al momento de implementar la gestión de los datos maestros.
 
 </template>

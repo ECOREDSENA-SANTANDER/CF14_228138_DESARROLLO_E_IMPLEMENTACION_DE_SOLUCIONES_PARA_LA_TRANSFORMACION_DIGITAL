@@ -1,3 +1,14 @@
+.banner-principal .tarjeta 
+  img, svg 
+    display: block;
+    border-style: hidden;
+  figure, picture, img, svg 
+    margin: 0;
+    width: 84%;
+    max-width: 90%;
+
+  
+  
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
@@ -13,9 +24,10 @@
     height: 120px
 
 .banner-principal .tarjeta 
-    background-color: #010b12
-    background-size: cover
-    background-position: left
+    background-color: #083142;
+    background-size: cover;
+    background-position: center;
+
 
 
 @keyframes float1
@@ -41,8 +53,8 @@
     display: block
     position: absolute
     opacity: .30
-    top: 17%
-    bottom: 35px
+    top: 9%
+    bottom: 20px
     left: 68%
     right: 0
 
@@ -202,6 +214,9 @@
   margin-left: 0.5rem !important;
   margin-bottom: -3em;
 
+.slider-a-custom
+  .fa-angle-right:before 
+    content: "\f105";
 
   
 .ml-neg-cus
@@ -224,6 +239,9 @@
 
 
 .bg11
+  padding-block-end: 2px
+
+.bg11
   background-color: #FFEEEB
   border-radius: 6px
   &:hover
@@ -232,11 +250,10 @@
   background-color: #fff
 .bg-white
   background-color: #fff 
-.wd-80-cus
-  width: 100%
+
 
 .he-2-cus 
-    height: 120px
+    height: 130px
 
 
 .fondoo
@@ -250,7 +267,7 @@
 
 .color-pri
   background-color: #fff
-  height: 280px
+  height: 260px
 
 .cajon.color-secundario.cajaa
   border-radius: 10px
@@ -486,3 +503,21 @@
   width: 100px
   margin-right: 1rem !important;
   margin-left: 25rem !important;
+
+
+.mb-4.espacio
+    margin-bottom: 1rem !important;
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  background-image: url("../assets/componentes/arrow-wt.svg")!important
+
+.slyder-a__tipo-b .slyder-a__btn--sigt 
+    transform: rotate(359deg);
+
+.slyder-a__tipo-b .slyder-a__btn--atrs 
+    transform: rotate(180deg);
+    left: 15px;
+
+.tarjeta.tarjeta--azul.py-5 
+    padding-top: 3rem !important;
+    padding-bottom: 1rem !important;

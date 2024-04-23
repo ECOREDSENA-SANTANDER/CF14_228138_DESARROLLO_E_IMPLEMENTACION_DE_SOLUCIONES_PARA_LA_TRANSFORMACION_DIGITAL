@@ -8,9 +8,9 @@
       h1  Modelo de datos transaccionales
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-4.col-8
+      .col-lg-4.col-8.mb-5
         img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema3/img1.png" alt="")
-      .col-lg-8.col-12
+      .col-lg-8.col-12.mb-5
         p.mb-3.my-3 Desde el contexto de inteligencia de negocios, los sistemas transaccionales son las fuentes de datos que alimentan los sistemas ETL, si bien existen otras fuentes tales como reportes de internet (analíticas de web y redes sociales, entre otros), archivos multimedia, archivos planos, tablas de Excel, etc. Los sistemas transaccionales son las fuentes más convencionales en las fases de carga y transformación. 
         .mb-5
         .cajac.color-secundario.p-4.mb-4
@@ -20,65 +20,65 @@
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/nueva.svg', alt='')
             .col-lg-10 Los modelos de administración de datos se basan en ubicar donde se almacena la información, así como la extracción o consulta de la misma; estos son:
             
-            
-      .mb-5 
-      .tarjeta.tarjeta--azul.py-5
-        SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
-          .row.justify-content-center
-            .col-lg-5.col-12.mx-3.my-3
-              h4.mb-5 Por rango
-              p.mb-lg-0.mb-3 Se utiliza cuando se administra una gran cantidad de información y se hace como un árbol invertido donde la raíz es la fuente de datos y las hojas no producen información, tiene falencias cuando los datos son repetidos o redundantes.
-            .col-lg-5.col-8  
-              img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema3/img3.1.svg")
+      .row.justify-content-center 
+        .col-sm-12.col-lg-12     
+          .tarjeta.tarjeta--azul.py-5.p-4
+            SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
+              .row.justify-content-center
+                .col-lg-4.col-12.mx-3.my-3
+                  h4.mb-5 Por rango
+                  p.mb-lg-0.mb-3 Se utiliza cuando se administra una gran cantidad de información y se hace como un árbol invertido donde la raíz es la fuente de datos y las hojas no producen información, tiene falencias cuando los datos son repetidos o redundantes.
+                .col-lg-6.col-8  
+                  img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema3/img3.1.svg")
 
-          .row.justify-content-center
-            .col-lg-5.col-12.mx-3.my-3
-              h4.mb-5 Por red
-              p.mb-lg-0.mb-3 Se utiliza para resolver solución frente a gran volumen de datos evitando la redundancia, pero tiene fallas en el proceso de administración.
-            .col-lg-5.col-8
-              img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema3/img3.2.svg")
+              .row.justify-content-center
+                .col-lg-5.col-12.mx-3.my-3
+                  h4.mb-5 Por red
+                  p.mb-lg-0.mb-3 Se utiliza para resolver solución frente a gran volumen de datos evitando la redundancia, pero tiene fallas en el proceso de administración.
+                .col-lg-5.col-8
+                  img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema3/img3.2.svg")
 
-          .row.justify-content-center
-            .col-lg-5.col-12.mx-3.my-3
-              h4.mb-5 Multidimensional
-              p.mb-lg-0.mb-3 Se maneja para actividades directas y concretas de forma eficiente, brinda soluciones tipo relacional.
-            .col-lg-5.col-8
-              img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema3/img3.3.svg")
+              .row.justify-content-center
+                .col-lg-5.col-12.mx-3.my-3
+                  h4.mb-5 Multidimensional
+                  p.mb-lg-0.mb-3 Se maneja para actividades directas y concretas de forma eficiente, brinda soluciones tipo relacional.
+                .col-lg-5.col-8
+                  img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema3/img3.3.svg")
 
-          .row.justify-content-center
-            .col-lg-5.col-12.mx-3.my-3
-              h4.mb-5 Por transacciones
-              p.mb-lg-0.mb-3 Se utiliza para remitir y recibir información de forma rápida y su uso debe contar con un buen sistema, ya que las operaciones que se generen deben ser al mismo tiempo, es decir, envío y recepción inmediata para garantizar el uso óptimo.
-            .col-lg-5.col-8
-              img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema3/img3.4.svg")
+              .row.justify-content-center
+                .col-lg-5.col-12.mx-3.my-3
+                  h4.mb-5 Por transacciones
+                  p.mb-lg-0.mb-3 Se utiliza para remitir y recibir información de forma rápida y su uso debe contar con un buen sistema, ya que las operaciones que se generen deben ser al mismo tiempo, es decir, envío y recepción inmediata para garantizar el uso óptimo.
+                .col-lg-5.col-8
+                  img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema3/img3.4.svg")
 
-          .row.justify-content-center
-            .col-lg-5.col-12.mx-3.my-3
-              h4.mb-5 Por guía a objetos
-              p.mb-lg-0.mb-3 Este modelo hace uso de su administración y creación por funciones lo que permite manejar programas y operaciones por separado, tiene la capacidad de trabajar sobre volúmenes altos de información de forma óptima.
-            .col-lg-5.col-8
-              img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema3/img3.5.svg")
+              .row.justify-content-center
+                .col-lg-5.col-12.mx-3.my-3
+                  h4.mb-5 Por guía a objetos
+                  p.mb-lg-0.mb-3 Este modelo hace uso de su administración y creación por funciones lo que permite manejar programas y operaciones por separado, tiene la capacidad de trabajar sobre volúmenes altos de información de forma óptima.
+                .col-lg-5.col-8
+                  img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema3/img3.5.svg")
 
-          .row.justify-content-center
-            .col-lg-5.col-12.mx-3.my-3
-              h4.mb-5 Por relación
-              p.mb-lg-0.mb-3 Se utiliza para dar solución a situaciones reales y que la administración de los datos sea totalmente dinámica, tiene la facilidad de manejar volúmenes grandes de información de forma eficiente
-            .col-lg-5.col-8
-              img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema3/img3.6.svg")
+              .row.justify-content-center
+                .col-lg-5.col-12.mx-3.my-3
+                  h4.mb-5 Por relación
+                  p.mb-lg-0.mb-3 Se utiliza para dar solución a situaciones reales y que la administración de los datos sea totalmente dinámica, tiene la facilidad de manejar volúmenes grandes de información de forma eficiente
+                .col-lg-5.col-8
+                  img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema3/img3.6.svg")
 
-          .row.justify-content-center
-            .col-lg-5.col-12.mx-3.my-3
-              h4.mb-5 Por distribución
-              p.mb-lg-0.mb-3 Este modelo contempla su administración a través de la red en diferentes sitios, generando varias opciones para su edición y control; contiene alta capacidad de volumen de datos.
-            .col-lg-5.col-8
-              img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema3/img3.7.svg")
+              .row.justify-content-center
+                .col-lg-5.col-12.mx-3.my-3
+                  h4.mb-5 Por distribución
+                  p.mb-lg-0.mb-3 Este modelo contempla su administración a través de la red en diferentes sitios, generando varias opciones para su edición y control; contiene alta capacidad de volumen de datos.
+                .col-lg-5.col-8
+                  img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema3/img3.7.svg")
 
-          .row.justify-content-center
-            .col-lg-5.col-12.mx-3.my-3
-              h4.mb-5 Por deducción
-              p.mb-lg-0.mb-3 Su administración se basa en situaciones presentadas, a través de la lógica que brinda las matemáticas, tiene la capacidad de almacenar y manejar volúmenes altos de datos.
-            .col-lg-5.col-8
-              img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema3/img3.8.svg")
+              .row.justify-content-center
+                .col-lg-5.col-12.mx-3.my-3
+                  h4.mb-5 Por deducción
+                  p.mb-lg-0.mb-3 Su administración se basa en situaciones presentadas, a través de la lógica que brinda las matemáticas, tiene la capacidad de almacenar y manejar volúmenes altos de datos.
+                .col-lg-5.col-8
+                  img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema3/img3.8.svg")
 
     separador
     #t_3_1.titulo-segundo.color-acento-contenido
@@ -105,7 +105,7 @@
         
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-lg-1.col-12
-        img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema4/img17.svg" alt="")
+        img.mb-lg-0.mb-3.d-none.d-lg-block(src="@/assets/curso/temas/tema4/img17.svg" alt="")
       .col-lg-11.col-12
           p.mb-0 Los datos que se surgen de estos sistemas, serán claves para el proceso de centralización, limpieza e integración de datos del negocio y como ejemplo se ilustra en la siguiente figura.    
         
@@ -176,7 +176,7 @@
                 .row.justify-content-center.align-items-center.d-flex
                   .col-lg-2.col-8
                     .d-flex.justify-content-center
-                      img.iggg.mb-lg-0.mb-3(src="@/assets/curso/temas/tema3/sii.svg")
+                      img.iggg.mb-lg-0.mb-3.d-none.d-lg-block(src="@/assets/curso/temas/tema3/sii.svg")
                   .col-lg-6.col-12
                     h3.mb-2 Sitio web. 
                     p.text-small.mb-lg-0.mb-3 https://sqlitebrowser.org/
@@ -184,9 +184,9 @@
                     .d-flex.justify-content-center
                       a.boton.colores-acento-botones(href="https://sqlitebrowser.org/" target="_blank")
                         span.text-white Ver enlace
-                        i.text-white.fas.fa-link
+                        i.text-white.fas.fa-external-link-alt
             .d-flex.justify-content-center
-              img.itt.mb-lg-0.mb-3.mx-5(src="@/assets/curso/temas/tema3/ppp.svg")
+              img.itt.mb-lg-0.mb-3.mx-5.d-none.d-lg-block(src="@/assets/curso/temas/tema3/ppp.svg")
       .col-sm-12.col-md-6.mt-2
         .bg--piel.br.my-4.he-4-cus.px-4.pt-3
           img.w-auto-cus.mt-3(src='@/assets/curso/temas/tema3/img19.svg', alt='')
@@ -199,7 +199,7 @@
                 .row.justify-content-center.align-items-center.d-flex
                   .col-lg-2.col-8
                     .d-flex.justify-content-center
-                      img.iggg.mb-lg-0.mb-3(src="@/assets/curso/temas/tema3/sii.svg")
+                      img.iggg.mb-lg-0.mb-3.d-none.d-lg-block(src="@/assets/curso/temas/tema3/sii.svg")
                   .col-lg-6.col-12
                     h3.mb-2 Sitio web. 
                     p.text-small.mb-lg-0.mb-3 https://www.mysql.com/products/workbench/
@@ -207,7 +207,7 @@
                     .d-flex.justify-content-center
                       a.boton.colores-acento-botones(href="https://www.mysql.com/products/workbench/" target="_blank")
                         span.text-white Ver enlace
-                        i.text-white.fas.fa-link
+                        i.text-white.fas.fa-external-link-alt
             .d-flex.justify-content-center
               img.itt.mb-lg-0.mb-3.mx-5(src="@/assets/curso/temas/tema3/ppp.svg")
       .mb-4
@@ -300,7 +300,7 @@
         .fondo211.p-3.mb-5(data-aos="zoom-in")
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2.mx-5
-              img.my-3(src="@/assets/curso/temas/tema3/extra.svg")
+              img.my-3.d-none.d-lg-block(src="@/assets/curso/temas/tema3/extra.svg")
 
             .col
               .row.justify-content-between.align-items-center
@@ -310,7 +310,7 @@
                 .col-sm-auto
                   a.boton.color-acento-botones.mx-5(href="https://www.programiz.com/sql/online-compiler" target="_blank")
                     span Ver enlace
-                    i.fas.fa-link
+                    i.fas.fa-external-link-alt
 
     p.mb-3 #[b Este ambiente cuenta con una base de datos que contiene tres tablas: customers, orders y shipings. Realiza los siguiente ejercicios y práctica de las sentencias SQL que se proponen a continuación:]
     
@@ -378,7 +378,7 @@
           .row.justify-content-center.align-items-center.d-flex
             .col-lg-2.col-8
               .d-flex.justify-content-center
-                img.mb-lg-0.mb-3(style="width:80px" alt="" src="@/assets/curso/temas/tema3/sqll.svg")
+                img.mb-lg-0.mb-3.d-none.d-lg-block(style="width:80px" alt="" src="@/assets/curso/temas/tema3/sqll.svg")
             .col-lg-7.col-12
               h3.mb-2.text-white SQL Joins 
               p.text-small.text-white.mb-lg-0.mb-3 En este sitio indican cómo usar cada sentencia SQL, para que seguir profundizando en el tema:
@@ -386,7 +386,7 @@
               .d-flex.justify-content-center
                 a.boton.color-acento-botones(href="https://www.w3schools.com/sql/sql_join.asp" target="_blank")
                   span Ver enlace
-                  i.fas.fa-link
+                  i.fas.fa-external-link-alt
 
     p.mb-0 Para dominar este lenguaje, existen múltiples recursos en línea al respecto y también puede consultar en material complementario recomendado.
 
@@ -453,7 +453,7 @@
         figure
           img.mb-4(src='@/assets/curso/temas/tema3/img17.png', alt='Texto que describa la imagen')
     
-    .bg-52.py-lg-5.py-3
+    .bg-52.py-lg-5.p-2
       .row.justify-content-center.align-items-center.mb-0.position-relative(data-aos="fade-left")
         .col-lg-11.col-12
           p.mb-0 Al igual que otros lenguajes, para realizar consultas y gestiones y estructuras de datos es necesario instalar la herramienta necesaria, en este caso MongoDB, para realizar consultas y crear estructuras de datos. Aprender MongoDB es de gran utilidad, pues la tendencia del almacenamiento y gestión de grandes volúmenes de datos prefiere esta alternativa porque presenta grandes ventajas de desempeño para soluciones big data. En el material complementario se relaciona material para profundizar en el aprendizaje de MongoDB.

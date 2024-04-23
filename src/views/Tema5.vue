@@ -12,8 +12,8 @@
         .row.justify-content-center.align-items-center.d-flex
           .col-lg-10.col-12
             p.mb-0 Para la construcción de soluciones analíticas es fundamental seleccionar las herramientas adecuadas que permitan soportar cada uno de los procesos que se ejecutan en el ecosistema de procesamiento analítico. La oferta en el mercado de herramientas de inteligencia de negocios es muy alta, con algunos proveedores que representan corporaciones y tendencias tecnológicas y de negocio.
-          .col-lg-2.col-8.px-5
-            img.mb-3(alt="" src="@/assets/curso/temas/tema5/img1.svg")
+          .col-lg-2.col-8.px-5.mb-2
+            img.img-a.img-t.d-none.d-lg-block(alt="" src="@/assets/curso/temas/tema5/img1.svg")
       
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-lg-4.col-8
@@ -23,13 +23,13 @@
           p.mb-5 A la hora de decidirse por cuál ecosistema digital decidirse, es importante tener cuenta varios aspectos: entre otros, debe proporcionar herramientas Front end para usuarios con diferentes perfiles, debe permitir conexiones a diversas fuentes de datos, debe tener una infraestructura robusta y muy eficiente para el almacenamiento de Data Warehouse y DataMart que integre, además, componentes ETL como calidad de datos, diccionarios, repositorios centralizados y otras características importantes a la hora de elegir una herramienta o colección de herramientas. 
 
     .row.justify-content-center.mb-4(data-aos="zoom-in")
-      .col-lg-8.mb-3.mb-lg-0
+      .col-sm-12.col-lg-8.mb-3.mb-lg-0
         .bg-55.p-4
           .row.justify-content-center.align-items-center.mb-0
-            .col-lg-10.col-8
+            .col-sm-12.col-lg-8
               p.mb-0.mx-2 #[b No está de más recalcar que, más que las herramientas para el desarrollo de inteligencia de negocios, debe estar tras una estrategia clara y objetivos concretos para que el planteamiento de la arquitectura de soluciones analíticas tenga mayor éxito.]
             .col-lg-2
-              img(src='@/assets/curso/temas/tema5/img3.svg', alt='imagen decorativa') 
+              img.d-none.d-lg-block(src='@/assets/curso/temas/tema5/img3.svg', alt='imagen decorativa') 
       
       .mb-5        
       .mb-4.d-flex
