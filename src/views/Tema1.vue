@@ -84,7 +84,7 @@
         p.mb-4 #[b Esta gestion se debe realizar a traves de:]
     
         .row
-          .col-lg-3.col-md-10.col-12
+          .col-lg-3.col-md-12.col-12
             .tarjeta--boton.color-pri.p-3
               .row.justify-content-center.mb-4.text-center
                 .col-5
@@ -94,7 +94,7 @@
                 h5.mb-3 Proceso de datos.
                 p.mb-4 Se debe revisar la información y eliminar lo que no sirve.
             p.mb-4
-          .col-lg-3.col-md-10.col-12
+          .col-lg-3.col-md-12.col-12
             .tarjeta--boton.color-pri.p-3
               .row.justify-content-center.mb-4.text-center
                 .col-5
@@ -104,7 +104,7 @@
                 h5.mb-3 Elección de características.
                 p.mb-3 Se deben tomar las variables influyentes para solucionar el problema.
             p.mb-4
-          .col-lg-3.col-md-10.col-12
+          .col-lg-3.col-md-12.col-12
             .tarjeta.color-pri.p-3
               .row.justify-content-center.mb-3.text-center
                 .col-5
@@ -114,7 +114,7 @@
                 h5.mb-3 Uso de algoritmos.
                 p.mb-4 Se debe utilizar el modelo de conocimiento más acorde según las técnicas.
             p.mb-4
-          .col-lg-3.col-md-10.col-12
+          .col-lg-3.col-md-12.col-12
             .tarjeta--boton.color-pri.p-3.mb-5
               .row.justify-content-center.mb-4.text-center 
                 .col-5
@@ -162,7 +162,7 @@
           .row
             .col-1.figure.esquina
               figure
-                img(src='@/assets/curso/temas/tema1/esquina.svg', alt='Texto que describa la imagen')
+                img.d-none.d-lg-block(src='@/assets/curso/temas/tema1/esquina.svg', alt='Texto que describa la imagen')
 </template>
 <script>
 export default {
