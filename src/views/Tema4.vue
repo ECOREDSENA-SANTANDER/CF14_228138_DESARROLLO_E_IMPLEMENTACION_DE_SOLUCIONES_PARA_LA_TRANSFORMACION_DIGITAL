@@ -27,7 +27,7 @@
         p.mb-4 Las bodegas de datos son el corazón de la inteligencia de negocios, pues allí se almacena de manera incremental toda la información producida por la organización. De otra parte, cuando se establecen desarrollos completos de analítica de datos es necesario contar con infraestructura y gestión de almacenamiento robustas que den respuesta a las exigencias de la cantidad y variedad de datos que se presentan.
         p.mb-2 Para grandes empresas, es posible que se cuente con especialistas para cada proceso del flujo de datos y el almacenamiento de las bodegas de datos requieren especialistas en gestión de bases de datos y manejar muy bien las arquitecturas y disposición de la información en los diversos clústeres de datos que se puedan emplear.
       .col-lg-4.col-10.order-lg-2.order-1.mb-lg-0.mb-5(data-aos="fade-left")
-        img.mb-5(src="@/assets/curso/temas/tema4/img2.png")
+        img.mb-5.img-a.img-t(src="@/assets/curso/temas/tema4/img2.png")
     
 
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
@@ -35,7 +35,7 @@
         .bloque-texto-a.color-acento-contenido.p-2.p-md-3.mb-5
           .row.m-0.align-items-center.justify-content-between
             .col-lg-2.mb-4.mb-lg-0
-              img.w-75-cus.mx-5(src='@/assets/curso/temas/tema4/img3.svg', alt='')
+              img.w-75-cus.mx-5.img-a.img-t(src='@/assets/curso/temas/tema4/img3.svg', alt='')
             .col-lg-10
               .bloque-texto-a__texto.p-4
                 p.mb-0 Esta estructura contiene diversas tablas de hechos y dimensiones, que permiten estructurar la información para visualizar mejor las tablas que componen la bodega de datos y que se pueden presentar en diversos diseños, como tipo estrella, copo de nieve, constelaciones, etc.
@@ -68,7 +68,7 @@
               p.mb-2 En el proceso mediante el cual la empresa u organización #[b obtiene, procesa y analiza la información de mercado o de la industria en la que compite] conformada por fuentes secundarias puede contener información clave de los clientes, los productos de la competencia, la venta de estos productos, información sobre participación de mercados y perfiles de los clientes, o información específica sobre los posibles canales de distribución como tipos de establecimientos, ubicación geográfica, frecuencias de compra, tamaño o superficie, cantidades de compra con miras a usarla como soporte de sus planes de mercadeo y planeación comercial.
 
           .row.justify-content-center.align-items-center
-            .col-lg-8.col-md-10.col-12
+            .col-lg-8.col-md-12.col-12
               p Esta información es elaborada por entidades públicas o privadas, instituciones académicas o empresariales que buscan ampliar el conocimiento del sector o brindar cifras estadísticas del comportamiento de las variables. Para el caso colombiano hay empresas como Nielsen, Meiko o Servinformación que se dedican a procesos de investigación de mercados para posteriormente comercializar esta información a empresas interesadas en adquirirla. Brindando información sobre georreferenciación, aspectos demográficos, psicográficos y conductuales.
             .col-lg-4.col-md-10.col-12
               img(alt="" src="@/assets/curso/temas/tema4/img5.png")
@@ -78,7 +78,7 @@
       h2 4.2  Hechos, dimensiones
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-12.col-md-10.col-12
+      .col-lg-12.col-md-12.col-12
         p.mb-0 Las bodegas de datos están representadas en una base de datos que por lo general son de tipo SQL con un diseño Dimensional, es decir, cada Datamart cuenta con una tabla de hechos y otras tablas a modo de catálogos que se denominan dimensiones. A continuación.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")      

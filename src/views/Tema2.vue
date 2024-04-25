@@ -18,7 +18,7 @@
 
     .mb-5
     .row.cajon.cajas.align-items-center.md-5
-      .col-lg-12.col-12.px-lg-5.px-0
+      .col-lg-12.col-12.px-lg-5.px-0.p-2
         .row.justify-content-center.mb-4(data-aos="fade-down")   
           .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
           .col-lg-3.my-3
