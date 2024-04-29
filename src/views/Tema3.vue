@@ -164,7 +164,7 @@
     
     
     .row.d-flex.justify-content-center
-      .col-sm-12.col-md-9.mt-2
+      .col-lg-6.col-md-10.col-md-9.mt-2
         .tarjeta.color-secundari.my-4.he-4-cus.px-4.pt-3
           img.w-auto-cus.mt-3(src='@/assets/curso/temas/tema3/img18.svg', alt='')
           h4.mb-3.mt-5 DB Browser for SQLite
@@ -187,7 +187,7 @@
                         i.text-white.fas.fa-external-link-alt
             .d-flex.justify-content-center
               img.itt.mb-lg-0.mb-3.mx-5.d-none.d-lg-block(src="@/assets/curso/temas/tema3/ppp.svg")
-      .col-sm-12.col-md-9.mt-2
+      .col-lg-6.col-md-10.col-md-9.mt-2
         .bg--piel.br.my-4.he-4-cus.px-4.pt-3
           img.w-auto-cus.mt-3(src='@/assets/curso/temas/tema3/img19.svg', alt='')
           h4.mb-3.mt-5 MySQL Workbnech
