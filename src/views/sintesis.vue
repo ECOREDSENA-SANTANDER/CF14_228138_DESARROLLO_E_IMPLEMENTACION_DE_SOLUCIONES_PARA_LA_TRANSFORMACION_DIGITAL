@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/Sintesis.png", alt="alt")
+          img(src="@/assets/curso/temas/Sintesis.png", alt="La figura ilustra el proceso de integración de datos y ETL, que comienza con la extracción de datos de diversas fuentes, seguido de la limpieza y optimización con herramientas como Open Refine y Astera. Los datos optimizados se convierten en datos maestros y se almacenan en un modelo multidimensional en la bodega de datos, estructurado en hechos y dimensiones. A partir de estos, se generan cubos OLAP que facilitan la creación de dashboards BI para la visualización y análisis multidimensional. Finalmente, el proceso culmina con la minería de datos para extraer conocimiento y patrones útiles para la toma de decisiones empresariales. ")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

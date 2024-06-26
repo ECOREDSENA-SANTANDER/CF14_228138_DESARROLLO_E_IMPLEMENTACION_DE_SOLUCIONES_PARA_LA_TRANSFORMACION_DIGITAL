@@ -13,11 +13,11 @@
         .bloque-texto-b__texto
           .row.justify-content-center.align-items-center.d-flex
             .col-lg-10.col-12
-              p.mb-5 La identificacion de las fuentes de datos es el comienzo técnico para la extracción de todos los datos necesarios para los reportes y la creación de los tableros de mando para visualizar la información de la organización; su contraparte, es decir, el final de muchos ciclos de inteligencia de negocios, es la minería de datos como una de las alternativas luego de la extracción y limpieza de datos. 
+              p.mb-5 La identificación de las fuentes de datos es el comienzo técnico para la extracción de todos los datos necesarios para los reportes y la creación de los tableros de mando para visualizar la información de la organización; su contraparte, es decir, el final de muchos ciclos de inteligencia de negocios, es la minería de datos como una de las alternativas luego de la extracción y limpieza de datos.
             .col-lg-2.col-8.px-5
               img.mb-3.img-a.img-t.my-2(alt="" src="@/assets/curso/temas/tema1/img1.svg")
             .col-lg-12.col-12 
-              p.mt-5 Los datos encierran patrones y comportamientos de los que es posible extraer conocimiento sobre los eventos que los han generado; frecuentemente las cosas no son como aparentan ser, por esta razón, la visualización de datos, aunque necesarias, no son del todo suficientes para llegar hasta el conocimiento que se esconde detrás de estructuras y relaciones poco superficiales en los datos (Gorenés, Casas y Minguillón, 2017). 
+              p.mt-5 Los datos encierran patrones y comportamientos de los que es posible extraer conocimiento sobre los eventos que los han generado; frecuentemente las cosas no son como aparentan ser. Por esta razón, la visualización de datos, aunque necesarias, no son del todo suficientes para llegar hasta el conocimiento que se esconde detrás de estructuras y relaciones poco superficiales en los datos (Gorenés, Casas y Minguillón, 2017).
   
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-sm-12.col-lg-10
@@ -28,7 +28,7 @@
             .col-sm-12.col-lg-2.my-3
               img.img-a.img-t(src='@/assets/curso/temas/tema1/img2.svg', alt='imagen decorativa') 
     p.mb-4
-    p.mb-0 Este proceso consiste en tomar o extraer información requerida por las entidades de diferentes bases de datos o fuentes, su nombre está asociado a la minería ya que la extracción es vital en ambas actividades; por otro lado, su propósito es extraer datos útiles que ayuden a la resolución de las diferentes situaciones que se originan en las entidades y su gestión se puede hacer a través de herramientas estadísticas tanto básicas como avanzadas que proporciona la inteligencia artificial. 
+    p.mb-0 Este proceso consiste en tomar o extraer información requerida por las entidades de diferentes bases de datos o fuentes, su nombre está asociado a la minería ya que la extracción es vital en ambas actividades; por otro lado, su propósito es extraer datos útiles que ayuden a la resolución de las diferentes situaciones que se originan en las entidades y su gestión se puede hacer a través de herramientas estadísticas tanto básicas como avanzadas que proporciona la inteligencia artificial.
 
     .row.min
       .col-lg-5.mb-0.mb-lg-0(data-aos="zoom-in")
@@ -37,7 +37,7 @@
 
       .col-lg-7(data-aos="fade-left")
         .bg--piel.br_cstm.p-5.my-5.car
-          p.mb-2 La minería de datos como disciplina estudia las herramientas y algoritmos que le permitan acceder y recolectar datos a las organizaciones para que esa información sea predictiva y se facilite su análisis para la toma de decisiones ante situaciones presentadas, mejorar los procesos de las entidades y sirve para la toma de decisiones. 
+          p.mb-2 La minería de datos como disciplina estudia las herramientas y algoritmos que le permitan acceder y recolectar datos a las organizaciones para que esa información sea predictiva y se facilite su análisis para la toma de decisiones ante situaciones presentadas, mejorar los procesos de las entidades y sirve para la toma de decisiones.
       .mb-4    
       p.mb-4 #[b La gestión con la minería de datos se debe realizar considerando los siguientes elementos:]
 
@@ -78,7 +78,7 @@
           .wd-80-cus.my-3
             p.mx-1.mt-3.mb-0 #[b Mapear la información para verificar su autenticidad.] Revisando la procedencia de la información desde sus orígenes.
           
-    .row.fondoo.align-items-center.py-4.py-md-5.mb-5
+    .row.fondoo.align-items-center.py-4.py-md-5.mb-0
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.mb-4(data-aos="fade-down")  
         p.mb-4 #[b Esta gestion se debe realizar a traves de:]

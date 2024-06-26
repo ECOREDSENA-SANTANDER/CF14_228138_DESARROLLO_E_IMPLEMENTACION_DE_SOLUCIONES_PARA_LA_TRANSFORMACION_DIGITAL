@@ -20,7 +20,7 @@
         img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema5/img2.png" alt="")
       .col-lg-8.col-12
         .cajon.color-se.p-4.mb-2
-          p.mb-5 A la hora de decidirse por cuál ecosistema digital decidirse, es importante tener cuenta varios aspectos: entre otros, debe proporcionar herramientas Front end para usuarios con diferentes perfiles, debe permitir conexiones a diversas fuentes de datos, debe tener una infraestructura robusta y muy eficiente para el almacenamiento de Data Warehouse y DataMart que integre, además, componentes ETL como calidad de datos, diccionarios, repositorios centralizados y otras características importantes a la hora de elegir una herramienta o colección de herramientas. 
+          p.mb-5 A la hora de decidirse por cuál ecosistema digital decidirse, es importante tener cuenta varios aspectos: entre otros, debe proporcionar herramientas #[em Front end] para usuarios con diferentes perfiles, debe permitir conexiones a diversas fuentes de datos, debe tener una infraestructura robusta y muy eficiente para el almacenamiento de Data Warehouse y DataMart que integre, además, componentes ETL como calidad de datos, diccionarios, repositorios centralizados y otras características importantes a la hora de elegir una herramienta o colección de herramientas. 
 
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-sm-12.col-lg-8.mb-3.mb-lg-0
@@ -43,12 +43,12 @@
     .row.justify-content-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Tabla 2
+          h5 Tabla 2.
           span Herramientas disponibles para soluciones analíticas 
           
     .row.justify-content-center.align-items-start.mb-0
-      .col-lg-12
-        .tabla-a(data-aos="fade-left")
+      .col-lg-12.col-sm-12
+        .tabla-a(data-aos="fade-left")(alt="La tabla 2 describe varias herramientas analíticas: SAS Institute ofrece soluciones integrales con reportes interactivos; Salesforce incluye Tableau; SAP incorpora ETL e inteligencia de negocios; Microsoft integra Power BI con Power Apps y Dynamics 365; Oracle Analytics Cloud es versátil para empresas de todos los tamaños; Informatica facilita la integración en la nube; Quantexa proporciona soluciones de inteligencia corporativa; IBM ofrece una suite de inteligencia ambiental; y Qlik combina infraestructura y analítica en la nube.")
           table
             thead
               tr
@@ -58,39 +58,39 @@
             tbody
               tr
                 td.gra.text-center #[b SAS Institute]
-                td.gra https://www.sas.com/es_co/software/visual-analytics.html
+                td.gra.marr https://www.sas.com/es_co/software/visual-analytics.html
                 td.gra Solución integral. Reportes interactivos. Descubrimiento visual. Analítica de autoservicio. Escalabilidad y gobierno desde un mismo entorno.
               tr
                 td.gre.text-center #[b Salesforce]
-                td.gre https://www.salesforce.com/mx/products/analytics/overview/
+                td.gre.marr https://www.salesforce.com/mx/products/analytics/overview/
                 td.gre Tableau ha seguido creciendo como parte de Salesforce.
               tr
                 td.gra.text-center #[b SAP]
-                td.gra https://www.sap.com/latinamerica/products/technology-platform/bpc.html
+                td.gra.marr https://www.sap.com/latinamerica/products/technology-platform/bpc.html
                 td.gra Con muchos softwares corporativos, incorpora ahora herramientas de ETL y de inteligencia de negocios
               tr
                 td.gre.text-center #[b Microsoft]
-                td.gre https://powerbi.microsoft.com/es-es/what-is-business-intelligence/ 
+                td.gre.marr https://powerbi.microsoft.com/es-es/what-is-business-intelligence/ 
                 td.gre Visualizaciones de Power BI dentro de Power Apps y Dynamics 365 aumenta las capacidades analíticas integradas de Microsoft Power Platform al permitir a los usuarios incorporar activos de inteligencia empresarial.
               tr
                 td.gra.text-center #[b Oracle]
-                td.gra https://www.oracle.com/lad/business-analytics/ 
+                td.gra.marr https://www.oracle.com/lad/business-analytics/ 
                 td.gra Oracle Analytics Cloud se ha convertido en la herramienta analítica y de informes para las pequeñas empresas, más allá de las grandes corporaciones que lo usan.
               tr
                 td.gre.text-center #[b Informática]
-                td.gre https://www.informatica.com/products/cloud-data-integration.html 
+                td.gre.marr https://www.informatica.com/products/cloud-data-integration.html 
                 td.gre Integración de computación en la nube con herramientas de integración y procesos de datos hacia la inteligencia de negocios.
               tr
                 td.gra.text-center #[b Quantexa]
-                td.gra https://www.quantexa.com/platform/scoring-analytics/ 
+                td.gra.marr https://www.quantexa.com/platform/scoring-analytics/ 
                 td.gra Contextos completos de datos, incluye módulos de soluciones de inteligencia corporativa
               tr
                 td.gre.text-center #[b IBM]
-                td.gre https://www.ibm.com/products/environmental-intelligence-suite 
+                td.gre.marr https://www.ibm.com/products/environmental-intelligence-suite 
                 td.gre Anunciaron una solución comercial de gestión de datos empresariales en la nube híbrida con tecnología de datos de fuente abierta: IBM Environmental Intelligence Suite.
               tr
                 td.gra.text-center #[b Qlik]
-                td.gra https://www.qlik.com/es-es/products
+                td.gra.marr https://www.qlik.com/es-es/products
                 td.gra Una gran marca que integra herramientas de infraestructura, bases de datos y analítica. Promete cerrar la brecha entre los datos, los conocimientos y la acción con Qlik Cloud®, la única plataforma que reúne todos los datos y con su analítica.
           
       .mb-5

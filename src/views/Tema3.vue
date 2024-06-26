@@ -62,7 +62,7 @@
               .row.justify-content-center
                 .col-lg-5.col-12.mx-3.my-3
                   h4.mb-5 Por relación
-                  p.mb-lg-0.mb-3 Se utiliza para dar solución a situaciones reales y que la administración de los datos sea totalmente dinámica, tiene la facilidad de manejar volúmenes grandes de información de forma eficiente
+                  p.mb-lg-0.mb-3 Se utiliza para dar solución a situaciones reales y que la administración de los datos sea totalmente dinámica, tiene la facilidad de manejar volúmenes grandes de información de forma eficiente.
                 .col-lg-5.col-8
                   img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema3/img3.6.svg")
 
@@ -114,11 +114,11 @@
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-lg-6.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-5
-          h5 Figura 3
+          h5 Figura 3.
           span Sistemas transaccionales OLTP  
           
         figure
-          img.mb-3(src='@/assets/curso/temas/tema3/img6.png', alt='Texto que describa la imagen')
+          img.mb-3(src='@/assets/curso/temas/tema3/img6.png', alt='La figura 3 ilustra los sistemas transaccionales OLTP (Online Transaction Processing) en tres áreas clave de una organización: talento humano, finanzas y contabilidad, y comercial y ventas. Cada sección muestra cómo los datos se recopilan y se envían a un sistema OLTP, destacando la importancia de estos sistemas en el manejo y procesamiento de datos transaccionales para diversas funciones empresariales.')
           
     p.mb-4 Estos son ejemplos de sistemas transaccionales basados en OLTP que, generalmente, existen en las organizaciones.
     p También hay otras fuentes de información que se deben tener en cuenta, pues no todas las áreas funcionan con aplicaciones conectadas a bases de datos, además, existen procesos que podrían llegar a ser muy eficientes y con información adecuada que alimente el sistema de inteligencia de negocios con el uso de otros recursos, esto se conoce como fuentes de no transaccionales y las más comunes son:
@@ -159,7 +159,7 @@
       .col-lg-4.col-8
         img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema3/img8.svg" alt="")
       .col-lg-8.col-12
-        p.mb-4 Lenguaje estructurado de datos #[em (Structured Query Language);] es un lenguaje de programación para la gestión de bases de datos, a través de sentencias SQL, se accede y manipula datos de cualquier base de datos relacional del mercado, entre las más comunes MySQL, ORACLE, DB2, SQL SERVER, etc.
+        p.mb-4 Lenguaje estructurado de datos #[em (Structured Query Language);] es un lenguaje de programación para la gestión de bases de datos, a través de sentencias SQL, se accede y manipula datos de cualquier base de datos relacional del mercado, entre las más comunes #[em MySQL, ORACLE, DB2, SQL SERVER], etc.
         p Como todo lenguaje, se compone de sentencias, cada una con utilidades y funciones diferentes; para administrar bases de datos y ejecutar sentencias SQL es necesario también un ambiente de desarrollo llamado IDE; existen múltiples opciones, las más recomendadas para descargar a la computadora son:
     
     
@@ -167,7 +167,7 @@
       .col-lg-6.col-md-10.col-md-9.mt-2
         .tarjeta.color-secundari.my-4.he-4-cus.px-4.pt-3
           img.w-auto-cus.mt-3(src='@/assets/curso/temas/tema3/img18.svg', alt='')
-          h4.mb-3.mt-5 DB Browser for SQLite
+          h4.mb-3.mt-5 DB Browser for SQLite.
           p.mb-5 Aplicación liviana y muy fácil de instalar y manejar.
           
           .row.justify-content.mb-5(data-aos="zoom-in-left")
@@ -183,7 +183,7 @@
                   .col-lg-4.col-12
                     .d-flex.justify-content-center
                       a.boton.colores-acento-botones(href="https://sqlitebrowser.org/" target="_blank")
-                        span.text-white Ver enlace
+                        span.text-white Ir al sitio
                         i.text-white.fas.fa-external-link-alt
             .d-flex.justify-content-center
               img.itt.mb-lg-0.mb-3.mx-5.d-none.d-lg-block(src="@/assets/curso/temas/tema3/ppp.svg")
@@ -206,92 +206,94 @@
                   .col-lg-4.col-12
                     .d-flex.justify-content-center
                       a.boton.colores-acento-botones(href="https://www.mysql.com/products/workbench/" target="_blank")
-                        span.text-white Ver enlace
+                        span.text-white Ir al sitio
                         i.text-white.fas.fa-external-link-alt
             .d-flex.justify-content-center
               img.itt.mb-lg-0.mb-3.mx-5(src="@/assets/curso/temas/tema3/ppp.svg")
-      .mb-4
-      p.mt-5 Independientemente del ambiente y herramienta seleccionada (ya sea de uso libre o de pago), la mayoría cuentan con el siguiente esquema visual.
+      
+      p.mt-4 Independientemente del ambiente y herramienta seleccionada (ya sea de uso libre o de pago), la mayoría cuentan con el siguiente esquema:
 
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-lg-10.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 4
+          h5 Figura 4.
           span Ambiente de las herramientas de gestion de bases de datos.
         figure
-          img.mb-5(src='@/assets/curso/temas/tema3/img10.png', alt='Texto que describa la imagen')
+          img.mb-5(src='@/assets/curso/temas/tema3/img10.png', alt='La figura 4 muestra el entorno de trabajo de una herramienta de gestión de bases de datos, destacando varios componentes clave. Incluye un navegador de esquemas, tablas y elementos de las bases de datos, un menú y barras de herramientas para la gestión y manipulación de las funciones de la aplicación, y un área de trabajo donde se pueden escribir consultas SQL. También se presentan los resultados de las consultas ejecutadas y la información de rendimiento y reportes de las consultas, proporcionando una vista integral del proceso de gestión y análisis de bases de datos. ')
       
       p.mb-5 #[b A continuación, se presentan las sentencias de gestión de estructura de datos, más usadas:]
 
-      .row.justify-content-center(data-aos="fade-left")
+      .row.justify-content-center.mb-4(data-aos="fade-left")
         .col-lg-5.col-12.d-flex
           .px-lg-4.py-lg-4.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3
             ul.lista-ul--color.mb-0
-              li.mb-0
+              li.mb-0.d-flex 
                 i.fas.fa-check
                 p.mb-0 #[b CREATE TABLE] crear una tabla.
-              li.mb-0
+              li.mb-0.d-flex 
                 i.fas.fa-check
                 p.mb-0 #[b NULL] para indicar valor nulo (ninguno).
-              li.mb-0
+              li.mb-0.d-flex 
                 i.fas.fa-check
                 p.mb-0 #[b UNIQUE] limita a un único valor en un campo.
               
-          .row.justify-content-center(data-aos="fade-left")
+
         .col-lg-5.col-12.d-flex
           .px-lg-4.py-lg-4.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3
             ul.lista-ul--color.mb-0
-              li.mb-0
+              li.mb-0.d-flex 
                 i.fas.fa-check
                 p.mb-0 #[b PRIMARY KEY] asigna identificadora un campo.
-              li.mb-0
+              li.mb-0.d-flex 
                 i.fas.fa-check
                 p.mb-0 #[b DROP] eliminar tabla o base de datos completa.
-              li.mb-0
+              li.mb-0.d-flex 
                 i.fas.fa-check
                 p.mb-0 #[b TRUNCATE] borrar datos completos de una tabla.
-      .row.mb-5
-      p.mb-4 #[b Las sentencias básicas de consulta:]
-      
-      .row.justify-content-center(data-aos="fade-left")
-        .col-lg-5.col-12.d-flex
-          .px-lg-4.py-lg-4.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3
-            ul.lista-ul--color.mb-0
-              li.mb-0
-                i.fas.fa-check
-                p.mb-0 #[b SELECT] para llamar datos.
-              li.mb-0
-                i.fas.fa-check
-                p.mb-0 #[b WHERE] para incluir condiciones.
-              li.mb-0
-                i.fas.fa-check
-                p.mb-0 #[b ORDER BY] ordenar los resultados.
-              li.mb-0
-                i.fas.fa-check
-                p.mb-0 #[b INSERT INTO] para adicionar o insertar datos.
-              li.mb-0
-                i.fas.fa-check
-                p.mb-0 #[b UPDATE]para actualizar datos.
-              li.mb-0
-                i.fas.fa-check
-                p.mb-0 #[b DELETE] para borrar datos.
-                .row.mb-5
-            
-          
-          .row.justify-content-center(data-aos="fade-left")
-        .col-lg-5.col-12.d-flex
-          .px-lg-4.py-lg-4.px-3.mb-lg-0.mb-3.w-100.tarjeta2.p-3
-            ul.lista-ul--color.mb-0
-              li.mb-0
-                i.fas.fa-check
-                p.mb-0 #[b LIMIT ] el número de registros de consulta.
-              li.mb-0
-                i.fas.fa-check
-                p.mb-0 #[b LIKE] busca en datos alfanuméricos por patrones dados.
-              li.mb-0
-                i.fas.fa-check
-                p.mb-0 #[b JOIN ] unir o combinar datos de diferentes tablas.
-            
+
+
+      .row.justify-content-center
+        .col-lg-6.col-12
+          p.mb-4 #[b Las sentencias básicas de consulta:]    
+          .row.justify-content.align-items-right
+            .col-lg-2.col-12.d-flex   
+            .col-lg-10.col-12.d-flex   
+              .px-lg-4.py-lg-4.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3
+                ul.lista-ul--color.mb-0
+                  li.mb-0.d-flex 
+                    i.fas.fa-check
+                    p.mb-0 #[b SELECT] para llamar datos.
+                  li.mb-0.d-flex 
+                    i.fas.fa-check
+                    p.mb-0 #[b WHERE] para incluir condiciones.
+                  li.mb-0.d-flex 
+                    i.fas.fa-check
+                    p.mb-0 #[b ORDER BY] ordenar los resultados.
+                  li.mb-0.d-flex 
+                    i.fas.fa-check
+                    p.mb-0 #[b INSERT INTO] para adicionar o insertar datos.
+                  li.mb-0.d-flex 
+                    i.fas.fa-check
+                    p.mb-0 #[b UPDATE] para actualizar datos.
+                  li.mb-0.d-flex 
+                    i.fas.fa-check
+                    p.mb-0 #[b DELETE] para borrar datos.
+        .col-lg-6.col-12
+          p.mb-4 #[b Las sentencias avanzadas.]    
+          .row.justify-content.align-items
+            .col-lg-10.col-12.d-flex 
+              .px-lg-4.py-lg-4.px-3.mb-lg-0.mb-3.w-100.tarjeta2.p-3
+                ul.lista-ul--color.mb-0
+                  li.mb-0.d-flex 
+                    i.fas.fa-check
+                    p.mb-0 #[b LIMIT ] el número de registros de consulta.
+                  li.mb-0.d-flex 
+                    i.fas.fa-check
+                    p.mb-0 #[b LIKE] busca en datos alfanuméricos por patrones dados.
+                  li.mb-0.d-flex 
+                    i.fas.fa-check
+                    p.mb-0 #[b JOIN ] unir o combinar datos de diferentes tablas.
+
       .mb-5
       p.mb-3 Para llevar a la práctica los primeros pasos con las sentencias SQL, se usará un recurso en línea que, además de tener el ambiente gráfico para construir y ejecutar sentencias SQL, ya tiene una base de datos precargada para manipular los datos.
 
@@ -309,7 +311,7 @@
                   p.mb-0.text-white Ingresar a la plataforma:
                 .col-sm-auto
                   a.boton.color-acento-botones.mx-5(href="https://www.programiz.com/sql/online-compiler" target="_blank")
-                    span Ver enlace
+                    span Ir al sitio
                     i.fas.fa-external-link-alt
 
     p.mb-3 #[b Este ambiente cuenta con una base de datos que contiene tres tablas: customers, orders y shipings. Realiza los siguiente ejercicios y práctica de las sentencias SQL que se proponen a continuación:]
@@ -324,34 +326,34 @@
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-lg-8.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 5
-          span Sentencia simple de SQL
+          h5 Figura 5.
+          span Sentencia simple de #[em SQL]
         .mb-5
       .col-lg-7.mb-3.mb-lg-0
         figure
-          img(src='@/assets/curso/temas/tema3/img11.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema3/img11.png', alt='La imagen ejemplifica y describe, a través de una captura de pantalla del editor programiz, un ejercicio de las sentencias SQL para presentar las columnas de una tabla.')
       .mb-5
       p.mb-0 #[b Ahora, se ejecuta una sentencia que solo llame ciertas columnas de la tabla, con una condición: que filtre los resultados y que organice los datos a razón de una de las columnas.]
     
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-lg-9.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 6
-          span Sentencia SQL con condicion y ordenamiento
+          h5 Figura 6.
+          span Sentencia #[em SQL] con condicion y ordenamiento
         
         figure
-          img.mb-5(src='@/assets/curso/temas/tema3/img12.png', alt='Texto que describa la imagen')
+          img.mb-5(src='@/assets/curso/temas/tema3/img12.png', alt='la figura ejemplifica un ejercicio para organizar datos de una manera especifica, con una secuencia determinada de sentencias.  Además, se realiza la traducción y explicación de cada sentencia utilizada.')
       
       p.mb-0 #[b Para agregar un nuevo registro, debe usar la sentencia: INSERT INTO.]
     
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-lg-9.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 7
-          span Insertar registro en SQL
+          h5 Figura 7.
+          span Insertar registro en #[em SQL]
         
         figure
-          img.mb-4(src='@/assets/curso/temas/tema3/img13.png', alt='Texto que describa la imagen')
+          img.mb-4(src='@/assets/curso/temas/tema3/img13.png', alt='La figura resalta la sentencia para insertar un registro.')
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.order-lg-1(data-aos="fade-right")
@@ -365,12 +367,12 @@
       .col-lg-9.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 8
-          span JOIN - Uniones en SQL
+          span #[em JOIN] - Uniones en #[em SQL]
         
         figure
-          img.mb-4(src='@/assets/curso/temas/tema3/img15.png', alt='Texto que describa la imagen')
+          img.mb-4(src='@/assets/curso/temas/tema3/img15.png', alt='la imagen señala la manera en que la sentencia JOIN, une datos de dos tablas en una sola.')
     
-    p.mb-5 #[b Ahora, se invita a realizar sus propias uniones y practicar diferentes sentencias SQL.]
+    p.mb-5 #[b Ahora, se invita a realizar sus propias uniones y practicar diferentes sentencias #[em SQL.]]
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-10.col-md-10.col-12
@@ -385,7 +387,7 @@
             .col-lg-3.col-12
               .d-flex.justify-content-center
                 a.boton.color-acento-botones(href="https://www.w3schools.com/sql/sql_join.asp" target="_blank")
-                  span Ver enlace
+                  span Ir al sitio
                   i.fas.fa-external-link-alt
 
     p.mb-0 Para dominar este lenguaje, existen múltiples recursos en línea al respecto y también puede consultar en material complementario recomendado.
@@ -400,12 +402,12 @@
     .row.justify-content-center.mb-2
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Tabla 1
-          span Diferencias entre SQL y NoSQL
+          h5 Tabla 1.
+          span Diferencias entre #[em SQL y NoSQL]
 
     .row.justify-content-center.align-items-start.mb-5
       .col-lg-10
-        .tabla-a(data-aos="fade-left")
+        .tabla-a(data-aos="fade-left")(alt="La tabla 1 compara las bases de datos SQL y NoSQL: las SQL son relacionales, utilizan el lenguaje SQL, emplean tablas con índices para ordenar y ubicar datos, y requieren configuraciones estrictas, aunque su velocidad disminuye con grandes volúmenes de datos. En contraste, las bases de datos NoSQL son no relacionales, utilizan estructuras tipo JavaScript, gestionan datos mediante colecciones de documentos como JSON y BSON, son muy veloces incluso con grandes volúmenes de datos, y tienen una estructura más flexible y menos estricta en cuanto a esquemas. ")
           table
             thead
               tr
@@ -416,11 +418,11 @@
                 td.gra Relacionales: se asocia directamente otras colecciones de datos estructuradas.
                 td.gra No relacionales: no es requisito asociarse con otras colecciones de datos.
               tr
-                td.gre Estructura lenguaje SQL.
-                td.gre Estructura JavaScript.
+                td.gre Estructura lenguaje #[em SQL.]
+                td.gre Estructura #[em JavaScript.]
               tr
                 td.gra Tablas: usa índices para ordenar y ubicar datos.
-                td.gra Colecciones de documentos (JSON, BSON).
+                td.gra Colecciones de documentos #[em (JSON, BSON).]
               tr
                 td.gre Las bases de datos se componen de tablas asociadas.
                 td.gre Se establece la base de datos como un objeto llamado colección que contiene documentos y estos a su vez pueden tener más objetos dentro, y tener otras colecciones embebidas.
@@ -431,32 +433,32 @@
                 td.gre Los datos deben estar configurados estrictamente(tipo, tamaño, formato, etc.).
                 td.gre Es más libre. No es estricto con los esquemas.
     
-    p.mb-4 Si bien las bases de datos NoSQL tienen una estructura conceptual distinta, podría verse en su equivalencia de la siguiente manera:
+    p.mb-4 Si bien las bases de datos #[em NoSQL] tienen una estructura conceptual distinta, podría verse en su equivalencia de la siguiente manera:
 
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-lg-10.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 9
+          h5 Figura 9.
           span Equivalencias de estructuras
         
         figure
-          img(src='@/assets/curso/temas/tema3/img16.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema3/img16.png', alt='En la imagen se presenta la equivalencia de dos bases de datos con la misma información: una SQL y la otra NoSQL.')
     
-    p.mb-4 En síntesis, las columnas en NoSQL son campos, los registros de cada campo se llaman Datos del documento y las filas pasarían a denominarse Documento.
+    p.mb-4 En síntesis, las columnas en #[em NoSQL] son campos, los registros de cada campo se llaman Datos del documento y las filas pasarían a denominarse Documento.
 
     .row.justify-content-center.mb-3(data-aos="zoom-in")
       .col-lg-7.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 10
-          span Denominaciones de la estructura en NoSQL
+          h5 Figura 10.
+          span Denominaciones de la estructura en #[em NoSQL]
         
         figure
-          img.mb-4(src='@/assets/curso/temas/tema3/img17.png', alt='Texto que describa la imagen')
+          img.mb-4(src='@/assets/curso/temas/tema3/img17.png', alt='La imagen presenta los nombres de cada elemento de las bases de datos NoSQL.')
     
     .bg-52.py-lg-5.p-2
       .row.justify-content-center.align-items-center.mb-0.position-relative(data-aos="fade-left")
         .col-lg-11.col-12
-          p.mb-0 Al igual que otros lenguajes, para realizar consultas y gestiones y estructuras de datos es necesario instalar la herramienta necesaria, en este caso MongoDB, para realizar consultas y crear estructuras de datos. Aprender MongoDB es de gran utilidad, pues la tendencia del almacenamiento y gestión de grandes volúmenes de datos prefiere esta alternativa porque presenta grandes ventajas de desempeño para soluciones big data. En el material complementario se relaciona material para profundizar en el aprendizaje de MongoDB.
+          p.mb-0 Al igual que otros lenguajes, para realizar consultas y gestiones y estructuras de datos es necesario instalar la herramienta necesaria, en este caso MongoDB, para realizar consultas y crear estructuras de datos. Aprender MongoDB es de gran utilidad, pues la tendencia del almacenamiento y gestión de grandes volúmenes de datos prefiere esta alternativa porque presenta grandes ventajas de desempeño para soluciones #[em big data]. En el material complementario se relaciona material para profundizar en el aprendizaje de MongoDB.
 
 
 </template>

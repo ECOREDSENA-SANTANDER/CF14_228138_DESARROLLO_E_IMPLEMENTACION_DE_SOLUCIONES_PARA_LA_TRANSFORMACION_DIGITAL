@@ -28,13 +28,13 @@
             ul.lista-ul--color.mx-0
               li.mb-0.pb-0 
                 i.fas.fa-chevron-right
-                p Claridad de la información y seguridad en el acceso de un lugar seguro. 
+                p.mb-0 Claridad de la información y seguridad en el acceso de un lugar seguro. 
               li.mb-0 
                 i.fas.fa-chevron-right
-                p Confiabilidad de los datos obteniendo información fidedigna veraz, visible y auditable por si se debe modificar. 
+                p.mb-0 Confiabilidad de los datos obteniendo información fidedigna veraz, visible y auditable por si se debe modificar. 
               li.mb-0 
                 i.fas.fa-chevron-right
-                p Comprensible y con capacidad de repetición asegurando su entendimiento para generar estrategias. 
+                p.mb-0 Comprensible y con capacidad de repetición asegurando su entendimiento para generar estrategias. 
     p.mb-5
     p.mb-4 #[b Ahora, para preparar los datos estructurados se siguen las siguientes fases:]
     
@@ -62,8 +62,8 @@
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1  Open Refine
     
-    p.mb-5 Es una aplicación de descarga libre y código abierto muy útil para realizar estas tareas de limpieza de datos y adaptarlos a los formatos y condiciones previas a otros procesos propios de ETL o minería de datos.
-    
+    p.mb-4 Es una aplicación de descarga libre y código abierto muy útil para realizar estas tareas de limpieza de datos y adaptarlos a los formatos y condiciones previas a otros procesos propios de ETL o minería de datos.
+    p.mb-4 Como complemento, puede visitar el siguiente enlace: 
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-10
         .fondo21.p-3.mb-5(data-aos="zoom-in")
@@ -78,7 +78,7 @@
                   p.text-white.mb-1 Configuración básica de la interfaz de usuario de OpenRefibe
                 .col-sm-auto
                   a.boton.color-acento-botones.mx-5(href="https://www.youtube.com/watch?v=tzXExfZCA1w&feature=youtu.be" target="_blank")
-                    span Ver Video
+                    span Ir al sitio
                     i.fab.fa-youtube
 
     p.mb-4  Su uso es relativamente fácil, lo importante es tener claridad de los conceptos y funcionalidades que se requieren. Para la transformación y refinamiento de datos usa su propio lenguaje #[em (General Refine Expression Language -GREL),] sin embargo, como ventaja, se puede seleccionar entre otras opciones de lenguajes para codificar las expresiones de transformación de datos.           
@@ -87,11 +87,11 @@
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-lg-10.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-5
-          h5 Figura 1
+          h5 Figura 1.
           span Limpieza y conciliación de datos  
           
         figure
-          img.mb-3(src='@/assets/curso/temas/tema2/img4.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema2/img4.png', alt='La imagen ejemplifica la funcionalidad de la herramienta, a través de la comparación de dos tablas: en la primera se señalan datos de manera desordena, en la segunda se destaca la presentación de los mismos datos de una manera organizada.')
     p.mb-5     
     p.mb-3 En el ejemplo anterior, se refinan los datos de manera que la información en los sistemas analíticos tenga una homogeneidad de formatos y estructuras, independiente de la fuente transaccional o archivos de entrada.
     p Para valores numéricos también se presentan múltiples funcionalidades, entre otras, la aplicación muestra valores poco típicos entre la colección de las columnas, ejemplo, si se tiene en fecha de nacimiento un año que marque por ejemplo 1890 (lo más probable es que se quería digitar 1990), sería una fecha atípica y se presenta una desviación muy grande en relación con el promedio de fechas registradas en la gran mayoría de registros. 
@@ -104,7 +104,7 @@
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p Es otra alternativa, pero más integral, es decir, no se dedica solo a la limpieza de datos, sino que se está definida para la administración de datos de extremo a extremo. 
         .BG13.p-4.mb-3
-          p.mb-0 Enfocándose en el proceso de refinamiento, al cual se denomina wrangle, usa su herramienta llamada ReportMiner, la cual suele ser muy buena, entre otras características, permite incluso extraer y hacer wrangle a archivos PDF y otras fuentes de datos. 
+          p.mb-0 Enfocándose en el proceso de refinamiento, al cual se denomina wrangle, usa su herramienta llamada #[em ReportMiner], la cual suele ser muy buena, entre otras características, permite incluso extraer y hacer wrangle a archivos PDF y otras fuentes de datos. 
         .d-flex.align-items-center.justify-content-center
           img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/temas/tema2/pun.svg', alt='')
           p.mt-20.mx-3 En apartados siguientes, cuando se hable de herramientas para ETL, se mencionará de nuevo esta herramienta que, sin duda, debe estar entre el ramillete de opciones para las empresas que deseen entrar en la tendencia de la inteligencia de negocio.
@@ -124,9 +124,9 @@
           
     .row.fondoos.align-items-center.py-4.py-md-5
       .col-lg-12.col-12.px-lg-5.px-4
-        .row.justify-content-center.mb-4(data-aos="fade-down")
+        .row.justify-content-center(data-aos="fade-down")
 
-        .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
+        .row.align-items-center.justify-content-center.mb-0(data-aos="zoom-in-left")
           .col-lg-12.my-2
             h4.mb-5 Una solución de MDM procura superar algunos desafíos comunes en las organizaciones como:
             ul.lista-ul--color.mx-0
@@ -143,10 +143,10 @@
         .row.justify-content-center.mb-4(data-aos="zoom-in")
           .col-lg-10.mb-3.mb-lg-0
             .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 2
+              h5 Figura 2.
               span Ventajas de implementar Datos Maestros en los sistemas de información   
           .col-lg-5.col-8
-            img.mb-lg-5.mb-3(alt="" src="@/assets/curso/temas/tema2/img7.svg")
+            img.mb-lg-5.mb-3(src="@/assets/curso/temas/tema2/img7.svg" alt="En el diagrama se destacan las siguientes ventajas de la herramienta: colección de datos, transformación, reglas de validación, administración de datos, detección de errores, corrección de datos, consolidación, almacenamiento centralizado, clasificación de datos y arquitectura.")
       .row.align-items-center
         .col-sm-12.col-lg-12
           p.mb-5.mx-5 Se deben tener presentes estas ventajas al momento de implementar la gestión de los datos maestros.
