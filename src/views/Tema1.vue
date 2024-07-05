@@ -18,6 +18,8 @@
               img.mb-3.img-a.img-t.my-2(alt="" src="@/assets/curso/temas/tema1/img1.svg")
             .col-lg-12.col-12 
               p.mb-0 Los datos encierran patrones y comportamientos de los que es posible extraer conocimiento sobre los eventos que los han generado; frecuentemente las cosas no son como aparentan ser. Por esta razón, la visualización de datos, aunque necesarias, no son del todo suficientes para llegar hasta el conocimiento que se esconde detrás de estructuras y relaciones poco superficiales en los datos (Gorenés, Casas y Minguillón, 2017).
+              
+
   
     .row.justify-content-center.mb-3(data-aos="zoom-in")
       .col-sm-12.col-lg-10
@@ -34,11 +36,10 @@
       .col-lg-5.col-sm-10.mb-0.mb-lg-0(data-aos="zoom-in")
         figure
           img.img-a.img-t(src='@/assets/curso/temas/tema1/img3.jpg', alt='imagen decorativa')  
-
       .col-lg-7(data-aos="fade-left")
         .bg--piel.br_cstm.p-5.car.mb-4
           p.mb-0 La minería de datos como disciplina estudia las herramientas y algoritmos que le permitan acceder y recolectar datos a las organizaciones para que esa información sea predictiva y se facilite su análisis para la toma de decisiones ante situaciones presentadas, mejorar los procesos de las entidades y sirve para la toma de decisiones.
-        
+  
       p.mb-4 #[b La gestión con la minería de datos se debe realizar considerando los siguientes elementos:]
 
     
@@ -77,8 +78,8 @@
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/tema1/img4.6.svg', alt='')
           .wd-80-cus.my-3
             p.mx-1.mt-3.mb-0 #[b Mapear la información para verificar su autenticidad.] Revisando la procedencia de la información desde sus orígenes.
-          
-    .row.fondoo.align-items-center.py-md-5.mb-0
+
+    .row.fondoo.align-items-center.py-4.py-md-5.mb-0
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center(data-aos="fade-down")  
           
