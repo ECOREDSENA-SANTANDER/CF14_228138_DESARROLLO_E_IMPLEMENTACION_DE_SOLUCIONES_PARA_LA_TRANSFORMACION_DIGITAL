@@ -199,19 +199,19 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Bytes ',
+      termino: '<em>Bytes</em> ',
       significado:
         'Unidad de medida de información. 1 byte corresponde a 8 bits, y a partir de esta unidad se determina el volumen de la información. ',
     },
     {
-      termino: 'Dashboard ',
+      termino: '<em>Dashboard</em> ',
       significado:
         'Tableros de mando, es el recurso que resulta a partir del proceso de ETL. Es la manera de consumir datos y proporcionar conocimiento del negocio ',
     },
     {
       termino: '<em>Datamart</em>',
       significado:
-        'Es la versión específica de cada área del Data Warehouse, son los datos concentrados por cada área del negocio. Son subconjuntos de colección de datos que alimentan a la bodega de datos y el resto de los recursos analíticos ',
+        'Es la versión específica de cada área del <em>Data Warehouse</em>, son los datos concentrados por cada área del negocio. Son subconjuntos de colección de datos que alimentan a la bodega de datos y el resto de los recursos analíticos ',
     },
     {
       termino: '<em>Machine Learning </em>',
@@ -221,7 +221,7 @@ export default {
     {
       termino: 'IDE ',
       significado:
-        '"Integrated Development Environment", en su traducción: Entorno de desarrollo integrado, se trata de una herramienta o entorno que integra otras herramientas, de esta manera el desarrollador no se preocupa de instalar recursos adicionales, todo estará en una sola herramienta que integra otras para que así, el profesional se dedique solo a la programación ',
+        '"<em>Integrated Development Environment</em>", en su traducción: Entorno de desarrollo integrado, se trata de una herramienta o entorno que integra otras herramientas, de esta manera el desarrollador no se preocupa de instalar recursos adicionales, todo estará en una sola herramienta que integra otras para que así, el profesional se dedique solo a la programación ',
     },
     {
       termino: 'IA ',
@@ -264,9 +264,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -274,25 +274,35 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Jaime Hernán Tejada ',
-          cargo: 'Experto Temático ',
+          nombre: 'Jaime Hernán Tejada',
+          cargo: 'Experto Temático',
           centro: 'Regional Norte de Santander- Centro CIES',
         },
         {
-          nombre: 'Giovanna Andrea Escobar Ospina ',
-          cargo: 'Diseñador Instruccional ',
-          centro: 'Regional Norte de Santander- Centro CIES ',
+          nombre: 'Giovanna Andrea Escobar Ospina',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Norte de Santander- Centro CIES',
         },
         {
-          nombre: 'Silvia Milena Sequeda Cárdenas ',
-          cargo: 'Asesora pedagógica y metodológica  ',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología ',
+          nombre: 'Silvia Milena Sequeda Cárdenas',
+          cargo: 'Asesora pedagógica y metodológica ',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes ',
-          cargo: 'Responsable Desarrollo Curricular ',
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Corrector de estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo de Desarrollo Curricular',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura. ',
+            'Regional Santander – Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Sandra Paola Morales Páez',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -300,24 +310,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Giovanna Andrea Escobar Ospina',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Pedro Alonso Bolivar Gonzalez',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Pedro Alonso Bolivar González',
+          cargo: 'Desarrollador <em>Fullstack</em>',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y Productora Multimedia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -325,24 +330,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Validación de Contenidos Accesibles',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
