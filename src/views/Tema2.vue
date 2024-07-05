@@ -26,13 +26,13 @@
               h4.mb-4.mx-2.my-4 Las organizaciones en la preparación de datos deben tener en cuenta:
               ul.lista-ul--color.mx-0
                 li.mb-0.pb-0 
-                  i.fas.fa-chevron-right
+                  i.fas.fa-chevron-right.der
                   p.mb-0 Claridad de la información y seguridad en el acceso de un lugar seguro. 
                 li.mb-0 
-                  i.fas.fa-chevron-right
+                  i.fas.fa-chevron-right.der
                   p.mb-0 Confiabilidad de los datos obteniendo información fidedigna veraz, visible y auditable por si se debe modificar. 
                 li.mb-0 
-                  i.fas.fa-chevron-right
+                  i.fas.fa-chevron-right.der
                   p.mb-0 Comprensible y con capacidad de repetición asegurando su entendimiento para generar estrategias. 
     
     p.mb-2 #[b Ahora, para preparar los datos estructurados se siguen las siguientes fases:]
@@ -130,13 +130,13 @@
             h4.mb-5.my-4 Una solución de MDM procura superar algunos desafíos comunes en las organizaciones como:
             ul.lista-ul--color.mx-0
               li.mb-0.pb-0 
-                i.fas.fa-chevron-right
+                i.fas.fa-chevron-right.der
                 p Silos de datos dispersos y múltiples versiones de sus datos.
               li.mb-0 
-                i.fas.fa-chevron-right
+                i.fas.fa-chevron-right.der
                 p Datos errados como resultado de ingresos manuales y datos no validados.
               li.mb-0 
-                i.fas.fa-chevron-right
+                i.fas.fa-chevron-right.der
                 p Costos en almacenamiento y seguridad en la información, tanto para su acceso, su conservación y disponibilidad.
       
         .row.justify-content-center.mb-4(data-aos="zoom-in")
