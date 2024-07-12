@@ -34,7 +34,7 @@
       .col-lg-12
         .bloque-texto-a.color-acento-contenido.p-2.p-md-3
           .row.m-0.align-items-center.justify-content-between
-            .col-lg-2.mb-4.mb-lg-0
+            .col-lg-2.col-md-4.mb-4.mb-lg-0
               img.w-75-cus.mx-5.img-a.img-t(src='@/assets/curso/temas/tema4/img3.svg', alt='')
             .col-lg-10
               .bloque-texto-a__texto.p-4
@@ -52,35 +52,39 @@
       .col-lg-12.order-lg-1.order-2(data-aos="fade-right")
         p.mb-4 Uno de los aspectos más importantes a tener en cuenta son las tendencias tecnológicas y de consumo, pues a partir de ello los proyectos empiezan a tener aceptación y éxito. Se debe tener siempre presente qué está funcionando en la industria, cuáles son las prácticas de las grandes corporaciones, qué consume el público objetivo y cómo compra, para alinearse hacia estas tendencias buscando mejorar las probabilidades de éxito de las organizaciones.
     
-    .row.justify-content-center.align-items-center.p-5.imag.bg-norepeat.bg-cover(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img4.svg')})`}"
-          )
-      .col-lg-4
-        p.mb-0
-      .col-lg-8
-        .row.justify-content-center.align-items-center
-          .col-lg-12
-            SlyderF(columnas="col-lg-12 col-md-12 col-12")(data-aos="fade-left")
-              .tarjeta.tarjeta--slyder.blanco.p-4
-                .row.justify-content-center
-                  .col-lg-12
-                    p.mb-0.my-5 Las tendencias y estar pendiente de las nuevas herramientas de los proveedores de computación en la nube ayudan a estar a la vanguardia en la implementación de herramientas tecnológicas y permanece competitivo alineándose a las necesidades de los nuevos clientes, cada día con más opciones por ofertas de la competencia haciéndolos al tiempo más y más exigentes pretendiendo soluciones ágiles y eficientes.
-              .tarjeta.tarjeta--slyder.blanco.p-4
-                .row.justify-content-center
-                  .col-lg-12
-                    p.mb-0 En el proceso mediante el cual la empresa u organización #[b obtiene, procesa y analiza la información de mercado o de la industria en la que compite] conformada por fuentes secundarias puede contener información clave de los clientes, los productos de la competencia, la venta de estos productos, información sobre participación de mercados y perfiles de los clientes, o información específica sobre los posibles canales de distribución como tipos de establecimientos, ubicación geográfica, frecuencias de compra, tamaño o superficie, cantidades de compra con miras a usarla como soporte de sus planes de mercadeo y planeación comercial.  
-              .tarjeta.tarjeta--slyder.blanco.p-4
-                .row.justify-content-center
-                  .col-lg-12
-                    p.mb-0 Esta información es elaborada por entidades públicas o privadas, instituciones académicas o empresariales que buscan ampliar el conocimiento del sector o brindar cifras estadísticas del comportamiento de las variables. Para el caso colombiano hay empresas como Nielsen, Meiko o Servinformación que se dedican a procesos de investigación de mercados para posteriormente comercializar esta información a empresas interesadas en adquirirla. Brindando información sobre georreferenciación, aspectos demográficos, psicográficos y conductuales.
+    .row.bgf.align-items-center.py-md-5.p-3
+      .col-lg-12.col-12.px-lg-5.px-4
+        .row.justify-content-center(data-aos="fade-down")
+    
+        .row.justify-content-center.mb-0.ch
+          .col-lg-4
+            p.mb-0
+          .col-lg-8.col-md-12.col-12
+            .row.justify-content-center.align-items-center
+              .col-lg-12
+                SlyderF(columnas="col-lg-12 col-md-12 col-12")
+                  .tarjeta.tarjeta--slyder.blanco.p-3
+                    .row.justify-content-center
+                      .col-lg-12
+                        p.mb-0.my-5 Las tendencias y estar pendiente de las nuevas herramientas de los proveedores de computación en la nube ayudan a estar a la vanguardia en la implementación de herramientas tecnológicas y permanece competitivo alineándose a las necesidades de los nuevos clientes, cada día con más opciones por ofertas de la competencia haciéndolos al tiempo más y más exigentes pretendiendo soluciones ágiles y eficientes.
+                  .tarjeta.tarjeta--slyder.blanco.p-3
+                    .row.justify-content-center
+                      .col-lg-12
+                        p.mb-0 En el proceso mediante el cual la empresa u organización #[b obtiene, procesa y analiza la información de mercado o de la industria en la que compite] conformada por fuentes secundarias puede contener información clave de los clientes, los productos de la competencia, la venta de estos productos, información sobre participación de mercados y perfiles de los clientes, o información específica sobre los posibles canales de distribución como tipos de establecimientos, ubicación geográfica, frecuencias de compra, tamaño o superficie, cantidades de compra con miras a usarla como soporte de sus planes de mercadeo y planeación comercial.  
+                  .tarjeta.tarjeta--slyder.blanco.p-3
+                    .row.justify-content-center
+                      .col-lg-12
+                        p.mb-0 Esta información es elaborada por entidades públicas o privadas, instituciones académicas o empresariales que buscan ampliar el conocimiento del sector o brindar cifras estadísticas del comportamiento de las variables. Para el caso colombiano hay empresas como Nielsen, Meiko o Servinformación que se dedican a procesos de investigación de mercados para posteriormente comercializar esta información a empresas interesadas en adquirirla. Brindando información sobre georreferenciación, aspectos demográficos, psicográficos y conductuales.
+    
 
+  
     separador
     #t_4_2.titulo-segundo.color-acento-contenido
       h2 4.2  Hechos, dimensiones
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-12.col-md-12.col-12
-        p.mb-0 Las bodegas de datos están representadas en una base de datos que por lo general son de tipo SQL con un diseño Dimensional, es decir, cada #[em Datamart] cuenta con una tabla de hechos y otras tablas a modo de catálogos que se denominan dimensiones. A continuación.
+        p.mb-0 Las bodegas de datos están representadas en una base de datos que por lo general son de tipo #[em SQL] con un diseño Dimensional, es decir, cada #[em Datamart] cuenta con una tabla de hechos y otras tablas a modo de catálogos que se denominan dimensiones. A continuación.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")      
       .col-sm-12.col-lg-10
@@ -113,7 +117,7 @@
     #t_4_3.titulo-segundo.color-acento-contenido
       h2 4.3  Cubos OLAP y ROLAP
 
-    p.mb-3 Los cubos de datos, no son precisamente parte del proceso ETL, los cubos es una estructura en la que la bodega de datos o el DWH entrega datos para consumirlos a través de visualización en tablas o gráficos multidimensionales.
+    p.mb-3 Los cubos de datos, no son precisamente parte del proceso ETL, los cubos es una estructura en la que la bodega de datos o el #[em Data Warehouse] (DWH) entrega datos para consumirlos a través de visualización en tablas o gráficos multidimensionales.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-lg-2.col-8
@@ -122,7 +126,7 @@
         .cajon.BGR08.p-4.mb-0
           .row.justify-content-center
             .col-lg-11.col-12
-              p.mb-0 #[b OLAP ( #[em OnLine Analytical Processing ]]- Procesamiento Analítico en Línea): se refiere a una estructura multidimensional que contiene información con objetivos analíticos; se compone principalmente de dimensiones y medidas. Las dimensiones definen la estructura del cubo que se utiliza para segmentar y dividir los datos, y las medidas proporcionan valores numéricos.
+              p.mb-0 #[b OLAP (#[em OnLine Analytical Processing ]]- Procesamiento Analítico en Línea): se refiere a una estructura multidimensional que contiene información con objetivos analíticos; se compone principalmente de dimensiones y medidas. Las dimensiones definen la estructura del cubo que se utiliza para segmentar y dividir los datos, y las medidas proporcionan valores numéricos.
     p.mb-4 Como estructura lógica, un cubo permite a una aplicación cliente recuperar valores de medidas, como si estuvieran almacenados en las celdas del cubo, adicional se presentan estructuras por jerarquía de datos que podrían definir de alguna manera la profundidad o detalle de las consultas; el ejemplo más común de datos jerárquicos es el tiempo, que tiene año, trimestre, mes, semana, día; esto puede definir el detalle de los reportes.
     
     .row.justify-content-center.align-items-center(data-aos="fade-right")      
@@ -164,7 +168,7 @@
           h5 Figura 13.
           span Arquitectura inteligencia de negocios
         figure
-          img.mb-4(src='@/assets/curso/temas/tema4/img12.png', alt='La imagen muestra un diagrama del proceso de ETL y el desarrollo de reportes en un sistema de almacenamiento de datos, se representa el flujo desde la extracción de datos hasta la construcción de informes para el consumo de los datos.')    
+          img.mb-4(src='@/assets/curso/temas/tema4/img12.svg', alt='La imagen muestra un diagrama del proceso de ETL y el desarrollo de reportes en un sistema de almacenamiento de datos, se representa el flujo desde la extracción de datos hasta la construcción de informes para el consumo de los datos.')    
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")      
       .col-lg-12.col-12
@@ -223,18 +227,18 @@
     
     
     .tarjeta--container.parr.row.mb-4
-      .col-md.tarjeta.color-priimario.p-5
+      .col-md.tarjeta.color-priimario.p-4.p-lg-5
         .row.justify-content-center.mb-4
           .h4.text-center.mb-4 La transformación e integración de datos:
-          .col-4
+          .col-6.col-md-6.col-lg-4
             img.mb-3(src="@/assets/curso/temas/tema4/img15.svg")
         
         p.mb-5 Cuando se tienen identificadas las fuentes de datos de cada área, se procede a extraer estos datos, se debe emplear metodologías para que los datos tengan una copia óptima en sistemas de almacenamiento centralizados y homogeneizados que garanticen la calidad de los datos y estén disponibles para la realización de reportes de todas las áreas.
       
-      .col-md.tarjetas.color-acento-contenidot.p-5
+      .col-md.tarjetas.color-acento-contenidot.p-4.p-lg-5
         .row.justify-content-center.mb-4
           .h4.text-center.mb-4 Diseño de reportes:
-          .col-4
+          .col-6.col-md-6.col-lg-4
             img.mb-3(src="@/assets/curso/temas/tema4/img16.svg")
         
         p Si bien estrictamente esta etapa no corresponde al proceso ETL, el objetivo es que todos esos datos recolectados, copiados y optimizados sean consumidos por el nivel de decisión, no necesariamente son los gerentes, los empleados también deben conocer sus gestiones y resultados en gráficos y dashboards que den cuenta de su propio rendimiento, allí también se genera una acción de autoevaluación y toman decisiones sobre sus propias funciones en la empresa.

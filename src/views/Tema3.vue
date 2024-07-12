@@ -12,13 +12,13 @@
         img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema3/img1.png" alt="")
       .col-lg-8.col-12.mb-2
         p.mb-3.my-3 Desde el contexto de inteligencia de negocios, los sistemas transaccionales son las fuentes de datos que alimentan los sistemas ETL, si bien existen otras fuentes tales como reportes de internet (analíticas de #[em web] y redes sociales, entre otros), archivos multimedia, archivos planos, tablas de Excel, etc. Los sistemas transaccionales son las fuentes más convencionales en las fases de carga y transformación. 
-        .mb-5
+        .mb-4
         .cajac.color-secundario.p-4.mb-4
           .col-lg-7.my-0
           .row.d-flex.align-items-center.justify-content-center
-            .col-lg-2
+            .col-lg-2.mb-3
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/nueva.svg', alt='')
-            .col-lg-10 Los modelos de administración de datos se basan en ubicar donde se almacena la información, así como la extracción o consulta de la misma; estos son:
+            .col-lg-10.mb-3 Los modelos de administración de datos se basan en ubicar donde se almacena la información, así como la extracción o consulta de la misma; estos son:
             
     .row.justify-content-center 
       .col-sm-12.col-lg-12     
@@ -28,55 +28,55 @@
               .col-lg-6.col-12.my-3
                 h4.mb-4 Por rango
                 p.mb-3 Se utiliza cuando se administra una gran cantidad de información y se hace como un árbol invertido donde la raíz es la fuente de datos y las hojas no producen información, tiene falencias cuando los datos son repetidos o redundantes.
-              .col-lg-6.col-8  
+              .col-lg-6.col-12  
                 img(alt="" src="@/assets/curso/temas/tema3/img3.1.svg")
             .row.justify-content-center.p-4
               .col-lg-6.col-12.my-3
                 h4.mb-4 Por red
                 p.mb-3 Se utiliza para resolver solución frente a gran volumen de datos evitando la redundancia, pero tiene fallas en el proceso de administración.
-              .col-lg-6.col-8
+              .col-lg-6.col-12
                 img(alt="" src="@/assets/curso/temas/tema3/img3.2.svg")
 
             .row.justify-content-center.p-4
               .col-lg-6.col-12.my-3
                 h4.mb-4 Multidimensional
                 p.mb-3 Se maneja para actividades directas y concretas de forma eficiente, brinda soluciones tipo relacional.
-              .col-lg-6.col-8
+              .col-lg-6.col-12
                 img(alt="" src="@/assets/curso/temas/tema3/img3.3.svg")
 
             .row.justify-content-center.p-4
               .col-lg-6.col-12.my-3
                 h4.mb-4 Por transacciones
                 p.mb-3 Se utiliza para remitir y recibir información de forma rápida y su uso debe contar con un buen sistema, ya que las operaciones que se generen deben ser al mismo tiempo, es decir, envío y recepción inmediata para garantizar el uso óptimo.
-              .col-lg-6.col-8
+              .col-lg-6.col-12
                 img(alt="" src="@/assets/curso/temas/tema3/img3.4.svg")
 
             .row.justify-content-center.p-4
               .col-lg-6.col-12.my-3
                 h4.mb-4 Por guía a objetos
                 p.mb-3 Este modelo hace uso de su administración y creación por funciones lo que permite manejar programas y operaciones por separado, tiene la capacidad de trabajar sobre volúmenes altos de información de forma óptima.
-              .col-lg-6.col-8
+              .col-lg-6.col-12
                 img(alt="" src="@/assets/curso/temas/tema3/img3.5.svg")
 
             .row.justify-content-center.p-4
               .col-lg-6.col-12.my-3
                 h4.mb-4 Por relación
                 p.mb-3 Se utiliza para dar solución a situaciones reales y que la administración de los datos sea totalmente dinámica, tiene la facilidad de manejar volúmenes grandes de información de forma eficiente.
-              .col-lg-6.col-8
+              .col-lg-6.col-12
                 img(alt="" src="@/assets/curso/temas/tema3/img3.6.svg")
 
             .row.justify-content-center.p-4
               .col-lg-6.col-12.my-3
                 h4.mb-4 Por distribución
                 p.mb-3 Este modelo contempla su administración a través de la red en diferentes sitios, generando varias opciones para su edición y control; contiene alta capacidad de volumen de datos.
-              .col-lg-6.col-8
+              .col-lg-6.col-12
                 img(alt="" src="@/assets/curso/temas/tema3/img3.7.svg")
 
             .row.justify-content-center.p-4
               .col-lg-6.col-12.my-3
                 h4.mb-4 Por deducción
                 p.mb-3 Su administración se basa en situaciones presentadas, a través de la lógica que brinda las matemáticas, tiene la capacidad de almacenar y manejar volúmenes altos de datos.
-              .col-lg-6.col-8
+              .col-lg-6.col-12
                 img(alt="" src="@/assets/curso/temas/tema3/img3.8.svg")
 
     separador
@@ -90,7 +90,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img4.svg')})`}"
           )
           .bloque-texto-g__texto.p-lg-4.py-lg-6.p-2
-            p.mb-0 El procesamiento de transacciones en línea (Online Transaction Processing), en las gráficas típicas de los ETL, aparecen los OLTP como fuentes importantes de datos, esto se refiere a sistemas de información desarrollados o implementados en áreas específicas del negocio. Sirven como apoyo tecnológico específico de un área en particular; estas aplicaciones pueden ser de tipo administrativo en lo referente a las transacciones de las dependencias como Talento humano, área financiera, contable, nómina, etc.
+            p.mb-0 El procesamiento de transacciones en línea #[em #[b (Online Transaction Processing)]], en las gráficas típicas de los ETL, aparecen los OLTP como fuentes importantes de datos, esto se refiere a sistemas de información desarrollados o implementados en áreas específicas del negocio. Sirven como apoyo tecnológico específico de un área en particular; estas aplicaciones pueden ser de tipo administrativo en lo referente a las transacciones de las dependencias como Talento humano, área financiera, contable, nómina, etc.
     
     p.mb-4 Otro tipo de aplicaciones de apoyo, son aquellas que se emplean en los procesos de producción, por ejemplo, si una compañía se dedica a la comercialización de productos de infraestructuras y equipos eléctricos de gran envergadura, tendrá un área de mercadeo, otra de ofertas, licitaciones y ventas.
     
@@ -107,7 +107,7 @@
       .col-lg-1.col-12
         img.mb-lg-0.mb-3.d-none.d-lg-block(src="@/assets/curso/temas/tema4/img17.svg" alt="")
       .col-lg-11.col-12
-          p.mb-0 Los datos que se surgen de estos sistemas, serán claves para el proceso de centralización, limpieza e integración de datos del negocio y como ejemplo se ilustra en la siguiente figura.    
+          p.mb-0 #[b Los datos que surgen de estos sistemas serán claves para el proceso de centralización, limpieza e integración de datos del negocio y como ejemplo se ilustra en la siguiente figura.]    
         
         
 
@@ -118,7 +118,7 @@
           span Sistemas transaccionales OLTP  
           
         figure
-          img(src='@/assets/curso/temas/tema3/img6.png', alt='La figura 3 ilustra los sistemas transaccionales OLTP (Online Transaction Processing) en tres áreas clave de una organización: talento humano, finanzas y contabilidad, y comercial y ventas. Cada sección muestra cómo los datos se recopilan y se envían a un sistema OLTP, destacando la importancia de estos sistemas en el manejo y procesamiento de datos transaccionales para diversas funciones empresariales.')
+          img(src='@/assets/curso/temas/tema3/img6.svg', alt='La figura 3 ilustra los sistemas transaccionales OLTP (Online Transaction Processing) en tres áreas clave de una organización: talento humano, finanzas y contabilidad, y comercial y ventas. Cada sección muestra cómo los datos se recopilan y se envían a un sistema OLTP, destacando la importancia de estos sistemas en el manejo y procesamiento de datos transaccionales para diversas funciones empresariales.')
           
     p.mb-4 Estos son ejemplos de sistemas transaccionales basados en OLTP que, generalmente, existen en las organizaciones.
     p También hay otras fuentes de información que se deben tener en cuenta, pues no todas las áreas funcionan con aplicaciones conectadas a bases de datos, además, existen procesos que podrían llegar a ser muy eficientes y con información adecuada que alimente el sistema de inteligencia de negocios con el uso de otros recursos, esto se conoce como fuentes de no transaccionales y las más comunes son:
@@ -144,7 +144,7 @@
 
           .row(titulo="Analítica de internet")
             .col-12.ps-5
-                  p.mb-0 Los sitios web, redes sociales y comercios electrónicos tienen sus herramientas propias para llevar reportes sobre diferentes estadísticas y mediciones, estas herramientas se pueden conectar a los tableros de mando o reportes que se realizan para la organización.
+                  p.mb-0 Los sitios #[em web], redes sociales y comercios electrónicos tienen sus herramientas propias para llevar reportes sobre diferentes estadísticas y mediciones, estas herramientas se pueden conectar a los tableros de mando o reportes que se realizan para la organización.
           
                                                 
       .col-lg-5(data-aos="fade-left")
@@ -160,7 +160,7 @@
         img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema3/img8.svg" alt="")
       .col-lg-8.col-12
         p.mb-4 Lenguaje estructurado de datos #[em (Structured Query Language);] es un lenguaje de programación para la gestión de bases de datos, a través de sentencias SQL, se accede y manipula datos de cualquier base de datos relacional del mercado, entre las más comunes #[em MySQL, ORACLE, DB2, SQL SERVER], etc.
-        p Como todo lenguaje, se compone de sentencias, cada una con utilidades y funciones diferentes; para administrar bases de datos y ejecutar sentencias SQL es necesario también un ambiente de desarrollo llamado IDE; existen múltiples opciones, las más recomendadas para descargar a la computadora son:
+        p Como todo lenguaje, se compone de sentencias, cada una con utilidades y funciones diferentes; para administrar bases de datos y ejecutar sentencias SQL es necesario también un ambiente de desarrollo llamado IDE; existen múltiples opciones, las más recomendadas para descargar son:
     
     
     .row.d-flex.justify-content-center.mb-4
@@ -178,7 +178,7 @@
                     .d-flex.justify-content-center
                       img.iggg.mb-lg-0.mb-3.d-none.d-lg-block(src="@/assets/curso/temas/tema3/sii.svg")
                   .col-lg-6.col-12
-                    h3.mb-2 Sitio web. 
+                    h3.mb-2 Sitio #[em web]. 
                     p.text-small.mb-lg-0.mb-3 https://sqlitebrowser.org/
                   .col-lg-4.col-12
                     .d-flex.justify-content-center
@@ -201,7 +201,7 @@
                     .d-flex.justify-content-center
                       img.iggg.mb-lg-0.mb-3.d-none.d-lg-block(src="@/assets/curso/temas/tema3/sii.svg")
                   .col-lg-6.col-12
-                    h3.mb-2 Sitio web. 
+                    h3.mb-2 Sitio #[em web]. 
                     p.text-small.mb-lg-0.mb-3 https://www.mysql.com/products/workbench/
                   .col-lg-4.col-12
                     .d-flex.justify-content-center
@@ -286,13 +286,13 @@
                 ul.lista-ul--color.mb-0
                   li.mb-0.d-flex 
                     i.fas.fa-check
-                    p.mb-0 #[b LIMIT ] el número de registros de consulta.
+                    p.mb-0 #[b #[em LIMIT]] el número de registros de consulta.
                   li.mb-0.d-flex 
                     i.fas.fa-check
-                    p.mb-0 #[b LIKE] busca en datos alfanuméricos por patrones dados.
+                    p.mb-0 #[b #[em LIKE]] busca en datos alfanuméricos por patrones dados.
                   li.mb-0.d-flex 
                     i.fas.fa-check
-                    p.mb-0 #[b JOIN ] unir o combinar datos de diferentes tablas.
+                    p.mb-0 #[b #[em JOIN] ] unir o combinar datos de diferentes tablas.
 
     p.mb-4 Para llevar a la práctica los primeros pasos con las sentencias SQL, se usará un recurso en línea que, además de tener el ambiente gráfico para construir y ejecutar sentencias SQL, ya tiene una base de datos precargada para manipular los datos.
 
@@ -312,7 +312,7 @@
                   span Ir al enlace
                   i.fas.fa-external-link-alt
 
-    p.mb-3 #[b Este ambiente cuenta con una base de datos que contiene tres tablas: customers, orders y shipings. Realiza los siguiente ejercicios y práctica de las sentencias SQL que se proponen a continuación:]
+    p.mb-3 #[b Este ambiente cuenta con una base de datos que contiene tres tablas: #[em customers, orders y shipings]. Realiza los siguiente ejercicios y práctica de las sentencias #[em SQL] que se proponen a continuación:]
     
     .row.justify-content-center.mb-2(data-aos="zoom-in")
       .col-lg-8.mb-3.mb-lg-0
@@ -357,7 +357,7 @@
       .col-lg-6.order-lg-1(data-aos="fade-right")
         p.mb-4.my-4 Para unir tablas o traer datos de otras tablas, es necesario tener claridad sobre las columnas que relacionan una tabla a otras, pues las uniones solo son posibles si se tiene un campo en común que asocie los conjuntos de datos.
         p.mb-4 En el siguiente ejemplo se tienen las tablas #[em Orders] (órdenes) y #[em Customers] (clientes), el campo en común en la tabla ordenes que asocia un cliente a través de #[em “customer_id”]. A continuación, se desea ver en una sola tabla el id de la orden y el monto (que están en la tabla #[em ‘Orders’]), pero también el nombre del cliente (que está en la tabla #[em Customers])
-        p.mb-4 En el proceso ETL se presentan necesidades que en el ambiente gráfico se queda corto y será imposible de realizar, si bien la mayoría de las herramientas son basadas en gráficos y ventanas, se hace necesario codificar algunas tareas del proceso de carga y transformación, por esto es importante tener claridad y habilidades sobre el manejo especialmente de SQL y otros lenguajes de consulta de datos.
+        p.mb-4 En el proceso ETL se presentan necesidades que en el ambiente gráfico se queda corto y será imposible de realizar, si bien la mayoría de las herramientas son basadas en gráficos y ventanas, se hace necesario codificar algunas tareas del proceso de carga y transformación, por esto es importante tener claridad y habilidades sobre el manejo especialmente de #[em SQL] y otros lenguajes de consulta de datos.
       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0(data-aos="fade-left")
         img(src="@/assets/curso/temas/tema3/img14.png")
     
@@ -393,7 +393,7 @@
 
     separador
     #t_3_3.titulo-segundo.color-acento-contenido
-      h2 3.3  No-SQL
+      h2 3.3  No-#[em SQL]
     
     p.mb-4 Es importante reconocer las diferencias entre las bases de datos relacionales #[em SQL] y las no relacionales #[em (no SQL)], para mejor entendimiento, por eso en la siguiente tabla se realiza un cuadro comparativo entre estos tipos de bases de bases de datos, empleando como ejemplo el motor de base de datos Mongo DB que actualmente es el gestor #[em NoSQL] más usado y especializado en este tipo de conceptos de arreglo de datos.
     

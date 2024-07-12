@@ -52,27 +52,27 @@
             thead
               tr
                 th.margen.text-white Marca
-                th.text-white Sitio Web
+                th.text-white Sitio #[em Web]
                 th.text-white Características
             tbody
               tr
-                td.gra.text-center #[b SAS Institute]
+                td.gra.text-center #[b #[em SAS Institute]]
                 td.gra.marr https://www.sas.com/es_co/software/visual-analytics.html
                 td.gra Solución integral. Reportes interactivos. Descubrimiento visual. Analítica de autoservicio. Escalabilidad y gobierno desde un mismo entorno.
               tr
-                td.gre.text-center #[b Salesforce]
+                td.gre.text-center #[b #[em Salesforce]]
                 td.gre.marr https://www.salesforce.com/mx/products/analytics/overview/
                 td.gre Tableau ha seguido creciendo como parte de Salesforce.
               tr
-                td.gra.text-center #[b SAP]
+                td.gra.text-center #[b #[em SAP]]
                 td.gra.marr https://www.sap.com/latinamerica/products/technology-platform/bpc.html
                 td.gra Con muchos softwares corporativos, incorpora ahora herramientas de ETL y de inteligencia de negocios
               tr
-                td.gre.text-center #[b Microsoft]
+                td.gre.text-center #[b #[em Microsoft]]
                 td.gre.marr https://powerbi.microsoft.com/es-es/what-is-business-intelligence/ 
                 td.gre Visualizaciones de #[em Power] BI dentro de #[em Power Apps y Dynamics] 365 aumenta las capacidades analíticas integradas de #[em Microsoft Power Platform] al permitir a los usuarios incorporar activos de inteligencia empresarial.
               tr
-                td.gra.text-center #[b Oracle]
+                td.gra.text-center #[b #[em Oracle]]
                 td.gra.marr https://www.oracle.com/lad/business-analytics/ 
                 td.gra #[em Oracle Analytics Cloud] se ha convertido en la herramienta analítica y de informes para las pequeñas empresas, más allá de las grandes corporaciones que lo usan.
               tr
@@ -80,7 +80,7 @@
                 td.gre.marr https://www.informatica.com/products/cloud-data-integration.html 
                 td.gre Integración de computación en la nube con herramientas de integración y procesos de datos hacia la inteligencia de negocios.
               tr
-                td.gra.text-center #[b Quantexa]
+                td.gra.text-center #[b #[em Quantexa]]
                 td.gra.marr https://www.quantexa.com/platform/scoring-analytics/ 
                 td.gra Contextos completos de datos, incluye módulos de soluciones de inteligencia corporativa
               tr
@@ -88,7 +88,7 @@
                 td.gre.marr https://www.ibm.com/products/environmental-intelligence-suite 
                 td.gre Anunciaron una solución comercial de gestión de datos empresariales en la nube híbrida con tecnología de datos de fuente abierta: IBM #[em Environmental Intelligence Suite.]
               tr
-                td.gra.text-center #[b Qlik]
+                td.gra.text-center #[b #[em Qlik]]
                 td.gra.marr https://www.qlik.com/es-es/products
                 td.gra Una gran marca que integra herramientas de infraestructura, bases de datos y analítica. Promete cerrar la brecha entre los datos, los conocimientos y la acción con #[em Qlik Cloud] ®, la única plataforma que reúne todos los datos y con su analítica.
 

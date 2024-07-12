@@ -37,26 +37,26 @@
     
     p.mb-2 #[b Ahora, para preparar los datos estructurados se siguen las siguientes fases:]
     
-    .row.text-left-cus.mb-0
-      .col-lg-4.my-3.text-left-cus
-        .bg191.bg-card.bg-img-1.d-flex.px-3.he-6-cus.flex-column
-          img.w-auto-cus.bg12.mx-3(src='@/assets/curso/temas/tema2/img3.1.png', alt='')
-          .ml-1-custom 
-            p.ml-1-custom 
-            p.ml-1-custom #[b Identificacion]<br><br>Identificar los datos que se necesitan, adquirirlos, compilarlos y generar un canal o línea de acceso permanente.
-      .col-lg-4.my-3.text-left-cus
-        .bg191.bg-card.bg-img-1.d-flex.px-3.he-6-cus.flex-column
-          img.w-auto-cus.bg12.mx-3(src='@/assets/curso/temas/tema2/img3.2.png', alt='')
-          .ml-1-custom 
-            p.ml-1-custom 
-            p.ml-1-custom.my-2 #[b Revision]<br><br>Revisar la calidad de los datos compilados, según la relación con la actividad o situación que se quiere solucionar.
-      .col-lg-4.my-3.text-left-cus
-        .bg191.bg-card.bg-img-1.d-flex.px-3.he-6-cus.flex-column
-          img.w-auto-cus.bg12.mx-3(src='@/assets/curso/temas/tema2/img3.3.png', alt='')
-          .ml-1-custom 
-            p.ml-1-custom 
-            p.ml-1-custom #[b Limpieza]<br><br>Limpieza de la información que consiste en corregir, eliminar duplicidad, suprimir datos incompletos y salvaguardar información confidencial.
-      
+    .row.justify-content-center.text-left-cus.mb-0.d-flex
+      .col-lg-4.col-md-8.my-3.text-left-cus
+        .bg11p.p-3.bg-card.bg-img-1.d-flex.he-6-cus.flex-column
+          img.w-auto-cus.bg12p.py-1.mx-3.my-4(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img3.1.svg' )
+          .wd-100
+            h4.ml-1-customp Identificación
+            p.ml-1-customp Identificar los datos que se necesitan, adquirirlos, compilarlos y generar un canal o línea de acceso permanente.
+      .col-lg-4.col-md-8.my-3.text-left-cus
+        .bg11p.p-3.bg-card.bg-img-2.d-flex.he-6-cus.flex-column
+          img.w-auto-cus.bg12p.py-1.mx-3.my-4(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img3.2.svg' )
+          .wd-100
+            h4.ml-1-customp Revisión
+            p.ml-1-customp Revisar la calidad de los datos compilados, según la relación con la actividad o situación que se quiere solucionar.
+      .col-lg-4.col-md-8.my-3.text-left-cus
+        .bg11p.p-3.bg-card.bg-img-3.d-flex.he-6-cus.flex-column
+          img.w-auto-cus.bg12p.py-1.mx-3.my-4(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img3.3.svg' )
+          .wd-100
+            h4.ml-1-customp Limpieza
+            p.ml-1-customp Limpieza de la información que consiste en corregir, eliminar duplicidad, suprimir datos incompletos y salvaguardar información confidencial.
+  
     separador
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1  Open Refine
@@ -90,7 +90,7 @@
           span Limpieza y conciliación de datos  
           
         figure
-          img(src='@/assets/curso/temas/tema2/img4.png', alt='La imagen ejemplifica la funcionalidad de la herramienta, a través de la comparación de dos tablas: en la primera se señalan datos de manera desordena, en la segunda se destaca la presentación de los mismos datos de una manera organizada.')
+          img(src='@/assets/curso/temas/tema2/img4.svg', alt='La imagen ejemplifica la funcionalidad de la herramienta, a través de la comparación de dos tablas: en la primera se señalan datos de manera desordena, en la segunda se destaca la presentación de los mismos datos de una manera organizada.')
       
     p.mb-3 En el ejemplo anterior, se refinan los datos de manera que la información en los sistemas analíticos tenga una homogeneidad de formatos y estructuras, independiente de la fuente transaccional o archivos de entrada.
     p.mb-0 Para valores numéricos también se presentan múltiples funcionalidades, entre otras, la aplicación muestra valores poco típicos entre la colección de las columnas, ejemplo, si se tiene en fecha de nacimiento un año que marque por ejemplo 1890 (lo más probable es que se quería digitar 1990), sería una fecha atípica y se presenta una desviación muy grande en relación con el promedio de fechas registradas en la gran mayoría de registros. 
@@ -130,13 +130,13 @@
             h4.mb-5.my-4 Una solución de MDM procura superar algunos desafíos comunes en las organizaciones como:
             ul.lista-ul--color.mx-0
               li.mb-0.pb-0 
-                i.fas.fa-chevron-right.der
+                i.fas.fa-check
                 p Silos de datos dispersos y múltiples versiones de sus datos.
               li.mb-0 
-                i.fas.fa-chevron-right.der
+                i.fas.fa-check
                 p Datos errados como resultado de ingresos manuales y datos no validados.
               li.mb-0 
-                i.fas.fa-chevron-right.der
+                i.fas.fa-check
                 p Costos en almacenamiento y seguridad en la información, tanto para su acceso, su conservación y disponibilidad.
       
         .row.justify-content-center.mb-4(data-aos="zoom-in")

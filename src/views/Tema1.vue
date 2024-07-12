@@ -13,7 +13,7 @@
         .bloque-texto-b__texto
           .row.justify-content-center.align-items-center.d-flex
             .col-lg-10.col-12
-              p.mb-5 La identificación de las fuentes de datos es el comienzo técnico para la extracción de todos los datos necesarios para los reportes y la creación de los tableros de mando para visualizar la información de la organización; su contraparte, es decir, el final de muchos ciclos de inteligencia de negocios, es la minería de datos como una de las alternativas luego de la extracción y limpieza de datos.
+              p.mb-5 La identificación de las fuentes de datos es el comienzo técnico para la extracción de todos los datos necesarios para los reportes y la creación de los tableros de mando, permitiendo visualizar la información de la organización; su contraparte, es decir, el final de muchos ciclos de inteligencia de negocios, es la minería de datos como una de las alternativas luego de la extracción y limpieza de datos.
             .col-lg-2.col-8.px-5
               img.mb-3.img-a.img-t.my-2(alt="" src="@/assets/curso/temas/tema1/img1.svg")
             .col-lg-12.col-12 
@@ -44,49 +44,47 @@
 
     
     .row.align-items-center.justify-content-center.mb-4.espacio
-      .col-lg-4.col-sm-9
-        .bg11.d-flex.px-2.he-2-cus.my-1
+      .col-lg-4.col-sm-12
+        .bg11.p-3.d-flex.px-2.he-2-cus.my-1
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/tema1/identificar.svg', alt='')
-          .wd-80-cus.my-3
-            p.mx-1.fw-bold.ml-1-custom.mt-3.mb-0 Identificar la información.
-            p.mx-1.ml-1-custom  Encontrando las categorías o conjuntos de los datos.
-      .col-lg-4.col-sm-9
-        .bg11.d-flex.px-2.he-2-cus.my-1
+          .wd-80-cus
+            p.mx-1.fw-bold.mb-0 
+            p.mx-2.mt-3.mb-0 #[b Identificar la información.] Encontrando las categorías o conjuntos de los datos.
+      .col-lg-4.col-sm-12
+        .bg11.p-3.d-flex.px-2.he-2-cus.my-1
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/tema1/img4.2.svg', alt='')
-          .wd-80-cus.my-3
-            p.fw-bold.ml-1-custom.mt-3.mb-0  Clasificar la información.
-            p.ml-1-custom De forma automática encontrando los datos solicitados o de interés.
-      .col-lg-4.col-sm-9
+          .wd-80-cus
+            p.mx-1.mt-3.mb-0 #[b Clasificar la información.] De forma automática encontrando los datos solicitados o de interés.
+      .col-lg-4.col-sm-12
         .bg11.d-flex.px-2.he-2-cus.my-1
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/tema1/img4.3.svg', alt='')
           .wd-80-cus.my-3
             p.mx-1.mt-3.mb-0 #[b Describir o brindar conceptos o información.] De forma compilada utilizando el método adecuado.
-    .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
-      .col-lg-4.col-sm-9
-        .bg11.d-flex.px-2.he-2-cus.my-1
+    .row.align-items-center.justify-content-center.mb-2(data-aos="zoom-in-left")
+      .col-lg-4.col-sm-12
+        .bg11.p-3.d-flex.px-2.he-2-cus.my-1
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/tema1/img4.4.svg', alt='')
-          .wd-80-cus.my-3
-            p.fw-bold.ml-1-custom.mt-3.mb-0  Detectar anomalías en los datos.
-            p.ml-1-custom  Filtrando la información recibida para evitar desviaciones o fallas.
-      .col-lg-4.col-sm-9
+          .wd-80-cus
+            p.mx-1.mt-3.mb-0 #[b Detectar anomalías en los datos.] Filtrando la información recibida para evitar desviaciones o fallas.
+      .col-lg-4.col-sm-12
         .bg11.d-flex.px-2.he-2-cus.my-1
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/tema1/img4.5.svg', alt='')
           .wd-80-cus.my-3
             p.mx-1.mt-3.mb-0 #[b Detectar las variables de la información.] Encontrando cambios que pueden originar los datos.
-      .col-lg-4.col-sm-9
+      .col-lg-4.col-sm-12
         .bg11.d-flex.px-2.he-2-cus.my-1
           img.img-a.img-t.bg12.px-1.py-2(src='@/assets/curso/temas/tema1/img4.6.svg', alt='')
           .wd-80-cus.my-3
             p.mx-1.mt-3.mb-0 #[b Mapear la información para verificar su autenticidad.] Revisando la procedencia de la información desde sus orígenes.
 
-    .row.fondoo.align-items-center.py-4.py-md-5.mb-0
+    .row.fondoo.align-items-center.py-5.py-md-5
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center(data-aos="fade-down")  
           
-          p.mb-4 #[b Esta gestion se debe realizar a traves de:]
+        p.mt-5.mb-4 #[b Esta gestion se debe realizar a traves de:]
     
         .row
-          .col-lg-3.col-md-12.col-12
+          .col-lg-3.col-md-6.col-12
             .tarjeta--boton.color-pri.p-3.shadow
               .row.justify-content-center.mb-4.text-center
                 .col-5
@@ -96,7 +94,7 @@
                 h5.mb-3 Proceso de datos.
                 p.mb-4 Se debe revisar la información y eliminar lo que no sirve.
             p.mb-4
-          .col-lg-3.col-md-12.col-12
+          .col-lg-3.col-md-6.col-12
             .tarjeta--boton.color-pri.p-3.shadow
               .row.justify-content-center.mb-4.text-center
                 .col-5
@@ -106,7 +104,7 @@
                 h5.mb-3 Elección de características.
                 p.mb-3 Se deben tomar las variables influyentes para solucionar el problema.
             p.mb-4
-          .col-lg-3.col-md-12.col-12
+          .col-lg-3.col-md-6.col-12
             .tarjeta.color-pri.p-3.shadow
               .row.justify-content-center.mb-3.text-center
                 .col-5
@@ -116,7 +114,7 @@
                 h5.mb-3 Uso de algoritmos.
                 p.mb-4 Se debe utilizar el modelo de conocimiento más acorde según las técnicas.
             p.mb-4
-          .col-lg-3.col-md-12.col-12
+          .col-lg-3.col-md-6.col-12
             .tarjeta--boton.color-pri.p-3.mb-5.shadow
               .row.justify-content-center.mb-4.text-center 
                 .col-5
@@ -125,46 +123,60 @@
                 p.mb-4
                 h5.mb-3 Análisis y evaluación.
                 p.mb-0 Se debe comprobar que las validaciones sean reales.
-            p.mb-4
     
     p.mb-4 #[b En el siguiente recurso se expondrán las técnicas que utiliza esta herramienta de recolección de datos:]
     
-    .row.justify-content-center.align-items-center.mb-4.bg21.bg-norepeat.border-20-cus
-      .col-lg-12.my-3.ted
-        .tarjeta.tarjeta--transparent.p-4.mb-5
-          LineaTiempoC.color-acento-contenido
-            .row.justify-content-center.align-items-center(titulo="Inferencia estadística")
-              .col-sm-12.col-md-8.d-flex.mt-0.flex-sm-column-cus
-                p.my-5 Se utiliza para inducir por muestras estadísticas el actuar de una comunidad, así como sus características.
-                img.ml-1-custome.img-a.img-t.px-1.py-2.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img6.1.svg', alt='')
-            .row.justify-content-center.align-items-center(titulo="Árbol de decisión")
-              .col-sm-12.col-md-8.d-flex.mt-0.flex-sm-column-cus
-                p.my-5 Se plasma por medio de una imagen las decisiones que se pueden tomar ante diferentes situaciones y, así mismo, se grafican sus resultados o consecuencias.
-                img.ml-1-custome.img-a.img-t.px-1.py-2.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img6.2.svg', alt='')
-            .row.justify-content-center.align-items-center(titulo="Redes neuronales")
-              .col-sm-12.col-md-8.d-flex.mt-0.flex-sm-column-cus
-                p.my-5 Imitan las neuronas del cerebro dando variables predictivas para la toma de decisiones.
-                img.ml-1-custome.img-a.img-t.px-1.py-2.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img6.3.svg', alt='')
-            .row.justify-content-center.align-items-center(titulo="Inducción de reglas")
-              .col-sm-12.col-md-8.d-flex.mt-0.flex-sm-column-cus
-                p.my-5 Genera métodos y lineamientos automáticos para identificar la información.
-                img.ml-1-custome.img-a.img-t.px-1.py-2.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img6.4.svg', alt='')
-            .row.justify-content-center.align-items-center(titulo="Aprendizaje basado en instancias")
-              .col-sm-12.col-md-8.d-flex.mt-0.flex-sm-column-cus
-                p.my-5 Procesa los datos hasta brindar respuestas, mediado por situaciones o ejemplos previamente delineados.
-                img.ml-1-custome.img-a.img-t.px-1.py-2.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img6.5.svg', alt='')
-            .row.justify-content-center.align-items-center(titulo="Algoritmos genéticos")
-              .col-sm-12.col-md-8.d-flex.mt-0.flex-sm-column-cus
-                p.my-5 Brindan soluciones a una situación por medio de una serie de algoritmos que siguen una función genética del problema.
-                img.ml-1-custome.img-a.img-t.px-1.py-2.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img6.6.svg', alt='')
-            .row.justify-content-center.align-items-center(titulo="Programación lógica inductiva")
-              .col-sm-12.col-md-8.d-flex.mt-0.flex-sm-column-cus
-                p.my-5 Por medio de la inteligencia artificial, utiliza lógica, hipótesis y el conocimiento previo para encontrar alternativas de solución.
-                img.ml-1-custome.img-a.img-t.px-1.py-0.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img6.7.svg', alt='')
-          .row
-            .col-1.figure.esquina
-              figure
-                img.d-none.d-lg-block(src='@/assets/curso/temas/tema1/esquina.svg', alt='Texto que describa la imagen')
+    .bg1.mb-5  
+      LineaTiempoC.p-3
+        .row.justify-content-center.align-items-top.p-4(titulo="Inferencia estadística.")
+          .col-sm-12.col-lg-7
+            p.my-4 Se utiliza para inducir por muestras estadísticas el actuar de una comunidad, así como sus características.
+          .col-lg-2
+            figure
+              img.img-a.img-t(src='@/assets/curso/temas/tema1/img6.1.svg', alt='tema1')      
+              
+        .row.justify-content-center.align-items-top(titulo="Árbol de decisión.")
+          .col-sm-12.col-lg-7
+            p.my-4 Se plasma por medio de una imagen las decisiones que se pueden tomar ante diferentes situaciones y, así mismo, se grafican sus resultados o consecuencias.
+          .col-lg-2
+            figure
+              img.img-a.img-t(src='@/assets/curso/temas/tema1/img6.2.svg', alt='tema1')      
+              
+        .row.justify-content-center.align-items-top(titulo="Redes neuronales.")
+          .col-sm-12.col-lg-7
+            p.my-4 Imitan las neuronas del cerebro dando variables predictivas para la toma de decisiones.
+          .col-lg-2
+            figure
+              img.img-a.img-t(src='@/assets/curso/temas/tema1/img6.3.svg', alt='tema1')      
+              
+        .row.justify-content-center.align-items-top(titulo="Inducción de reglas")
+          .col-sm-12.col-lg-7
+            p.my-4 Genera métodos y lineamientos automáticos para identificar la información.
+          .col-lg-2
+            figure
+              img.img-a.img-t(src='@/assets/curso/temas/tema1/img6.4.svg', alt='tema1')      
+              
+        .row.justify-content-center.align-items-top(titulo="Aprendizaje basado en instancias.")
+          .col-sm-12.col-lg-7
+            p.my-4 Procesa los datos hasta brindar respuestas, mediado por situaciones o ejemplos previamente delineados
+          .col-lg-2
+            figure
+              img.img-a.img-t(src='@/assets/curso/temas/tema1/img6.5.svg', alt='tema1')      
+        
+        .row.justify-content-center.align-items-top(titulo="Algoritmos genéticos.")
+          .col-sm-12.col-lg-7
+            p.my-4 Brindan soluciones a una situación por medio de una serie de algoritmos que siguen una función genética del problema.
+          .col-lg-2
+            figure
+              img.img-a.img-t(src='@/assets/curso/temas/tema1/img6.6.svg', alt='tema1') 
+
+        .row.justify-content-center.align-items-top(titulo="Programación lógica inductiva.")
+          .col-sm-12.col-lg-7
+            p.my-4 Por medio de la inteligencia artificial, utiliza lógica, hipótesis y el conocimiento previo para encontrar alternativas de solución.
+          .col-lg-2
+            figure
+              img.img-a.img-t(src='@/assets/curso/temas/tema1/img6.7.svg', alt='tema1') 
+        
 </template>
 <script>
 export default {

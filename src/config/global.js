@@ -310,7 +310,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Edison Eduardo Mantilla Cuadros',
+          nombre: 'Julian Fernando Vanegas Vega',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },

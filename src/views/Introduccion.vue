@@ -19,7 +19,7 @@
 
     figure(data-aos="fade-right")
       .video
-        iframe(width="1280" height="720" src="https://www.youtube.com/embed/URNCgT2EtH0" title="Análisis y valoración de riesgos de ciberseguridad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ilmPbQSBBoM?si=B5r4C6d3bLqT4-8y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption Video. Análisis y valoración de riesgos de ciberseguridad 
 </template>
 
