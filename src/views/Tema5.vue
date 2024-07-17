@@ -5,13 +5,13 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 5
-      h1  Herramientas Tecnológicas de ETL 
+      h1  Herramientas Tecnológicas de #[em ETL] 
     
     .bloque-texto-b.extrax.color-secundario(data-aos="fade-left")
       .bloque-texto-b__texto
         .row.justify-content-center.align-items-center.d-flex
           .col-lg-10.col-12
-            p.mb-0 Para la construcción de soluciones analíticas es fundamental seleccionar las herramientas adecuadas que permitan soportar cada uno de los procesos que se ejecutan en el ecosistema de procesamiento analítico. La oferta en el mercado de herramientas de inteligencia de negocios es muy alta, con algunos proveedores que representan corporaciones y tendencias tecnológicas y de negocio.
+            p.mb-0 Para la construcción de soluciones analíticas es fundamental seleccionar las herramientas adecuadas que permitan soportar cada uno de los procesos que se ejecutan en el ecosistema de procesamiento analítico. La oferta en el mercado de herramientas de inteligencia de negocios es muy alta, con algunos proveedores que representan corporaciones, tendencias tecnológicas y de negocio.
           .col-lg-2.col-8.px-5.mb-2
             img.img-a.img-t.d-none.d-lg-block(alt="" src="@/assets/curso/temas/tema5/img1.svg")
       
@@ -20,7 +20,7 @@
         img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema5/img2.png" alt="")
       .col-lg-8.col-12
         .cajon.color-se.p-4.mb-2
-          p.mb-5 A la hora de decidirse por cuál ecosistema digital decidirse, es importante tener cuenta varios aspectos: entre otros, debe proporcionar herramientas #[em Front end] para usuarios con diferentes perfiles, debe permitir conexiones a diversas fuentes de datos, debe tener una infraestructura robusta y muy eficiente para el almacenamiento de #[em Data Warehouse] y #[em DataMart] que integre, además, componentes ETL como calidad de datos, diccionarios, repositorios centralizados y otras características importantes a la hora de elegir una herramienta o colección de herramientas. 
+          p.mb-5 A la hora de decidirse por cuál ecosistema digital decidirse, es importante tener cuenta varios aspectos: entre otros, debe proporcionar herramientas #[em Front end] para usuarios con diferentes perfiles, debe permitir conexiones a diversas fuentes de datos, debe tener una infraestructura robusta y muy eficiente para el almacenamiento de #[em Data Warehouse] y #[em DataMart] que integre, además, componentes #[em ETL] como calidad de datos, diccionarios, repositorios centralizados y otras características importantes a la hora de elegir una herramienta o colección de herramientas. 
 
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-sm-12.col-lg-8.mb-3.mb-lg-0
@@ -62,11 +62,11 @@
               tr
                 td.gre.text-center #[b #[em Salesforce]]
                 td.gre.marr https://www.salesforce.com/mx/products/analytics/overview/
-                td.gre Tableau ha seguido creciendo como parte de Salesforce.
+                td.gre Tableau ha seguido creciendo como parte de #[em Salesforce].
               tr
                 td.gra.text-center #[b #[em SAP]]
                 td.gra.marr https://www.sap.com/latinamerica/products/technology-platform/bpc.html
-                td.gra Con muchos softwares corporativos, incorpora ahora herramientas de ETL y de inteligencia de negocios
+                td.gra Con muchos #[em softwares] corporativos, incorpora ahora herramientas de #[em ETL] y de inteligencia de negocios
               tr
                 td.gre.text-center #[b #[em Microsoft]]
                 td.gre.marr https://powerbi.microsoft.com/es-es/what-is-business-intelligence/ 
@@ -82,7 +82,7 @@
               tr
                 td.gra.text-center #[b #[em Quantexa]]
                 td.gra.marr https://www.quantexa.com/platform/scoring-analytics/ 
-                td.gra Contextos completos de datos, incluye módulos de soluciones de inteligencia corporativa
+                td.gra Contextos completos de datos, incluye módulos de soluciones de inteligencia corporativa.
               tr
                 td.gre.text-center #[b IBM]
                 td.gre.marr https://www.ibm.com/products/environmental-intelligence-suite 

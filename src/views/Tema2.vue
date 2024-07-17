@@ -59,9 +59,9 @@
   
     separador
     #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1  Open Refine
+      h2 2.1  #[em Open Refine]
     
-    p.mb-4 Es una aplicación de descarga libre y código abierto muy útil para realizar estas tareas de limpieza de datos y adaptarlos a los formatos y condiciones previas a otros procesos propios de ETL o minería de datos.
+    p.mb-4 Es una aplicación de descarga libre y código abierto muy útil para realizar estas tareas de limpieza de datos y adaptarlos a los formatos y condiciones previas a otros procesos propios de #[em ETL] o minería de datos.
     p.mb-4 Como complemento, puede visitar el siguiente enlace: 
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-10
@@ -73,8 +73,8 @@
             .col
               .row.justify-content-center.align-items-center
                 .col.mb-8.mb-sm-0
-                  h3.text-white.mb-1 Funcionalidades Open Refine          
-                  p.text-white.mb-1 Configuración básica de la interfaz de usuario de OpenRefibe
+                  h3.text-white.mb-1 Funcionalidades #[em Open Refine]          
+                  p.text-white.mb-1 Configuración básica de la interfaz de usuario de #[em Open Refine]
                 .col-sm-auto
                   a.boton.color-acento-botones.mx-5(href="https://www.youtube.com/watch?v=tzXExfZCA1w&feature=youtu.be" target="_blank")
                     span Ir al sitio
@@ -106,7 +106,7 @@
           p.mb-0 Enfocándose en el proceso de refinamiento, al cual se denomina #[em wrangle], usa su herramienta llamada #[em ReportMiner], la cual suele ser muy buena, entre otras características, permite incluso extraer y hacer #[em wrangle] a archivos PDF y otras fuentes de datos. 
         .d-flex.align-items-center.justify-content-center
           img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/temas/tema2/pun.svg', alt='')
-          p.mt-20.mx-3 En apartados siguientes, cuando se hable de herramientas para ETL, se mencionará de nuevo esta herramienta que, sin duda, debe estar entre el ramillete de opciones para las empresas que deseen entrar en la tendencia de la inteligencia de negocio.
+          p.mt-20.mx-3 En apartados siguientes, cuando se hable de herramientas para #[em ETL], se mencionará de nuevo esta herramienta que, sin duda, debe estar entre el ramillete de opciones para las empresas que deseen entrar en la tendencia de la inteligencia de negocio.
     
       .col-lg-4.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/temas/tema2/img5.png")

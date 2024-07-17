@@ -9,7 +9,7 @@
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12.order-lg-1.order-2(data-aos="fade-right")
-        p La información de las organizaciones provienen de fuentes de datos heterogéneas, muchas veces sin estar integradas, por lo cual tener reportes e información dispersa por áreas de la organización es un asunto que en la actualidad no debería presentarse, pues el fin de la inteligencia de negocios es facilitar el proceso y la disponibilidad de la información más relevante del negocio; para lograr esto se hace necesario centralizar los datos a través de bodegas de datos o #[em Data Warehouse] (DWH).
+        p La información de las organizaciones proviene de fuentes de datos heterogéneas, muchas veces sin estar integradas, por lo cual tener reportes e información dispersa por áreas de la organización es un asunto que en la actualidad no debería presentarse, pues el fin de la inteligencia de negocios es facilitar el proceso y la disponibilidad de la información más relevante del negocio; para lograr esto se hace necesario centralizar los datos a través de bodegas de datos o #[em Data Warehouse (DWH).]
     
     
     .row.justify-content-center.mb-2(data-aos="zoom-in")
@@ -42,7 +42,7 @@
 
 
 
-    p.mb-0 El fin de un proceso ETL será la de almacenar la información transformada en una o varias bases de datos destino; de esta manera, muchas pequeñas tareas y transformaciones se van almacenando de forma masiva y centralizada en una base de datos principal denominada #[em Data Warehouse] o bodega de datos.
+    p.mb-0 El fin de un proceso #[em ETL] será la de almacenar la información transformada en una o varias bases de datos destino; de esta manera, muchas pequeñas tareas y transformaciones se van almacenando de forma masiva y centralizada en una base de datos principal denominada #[em Data Warehouse] o bodega de datos.
     
     separador
     #t_4_1.titulo-segundo.color-acento-contenido
@@ -89,7 +89,7 @@
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")      
       .col-sm-12.col-lg-10
         .cajon.color-secu.p-4.mb-lg-0.mb-3
-          p.mb-3.my-4.mx-4 #[b Las tablas de hechos (#[em Fact]):] representan los eventos que suceden en determinado contexto-tiempo. Se caracterizan por permitir el análisis de los datos con el máximo detalle, son tablas que no tienen medida y suelen ser tablas más robustas, que contienen miles o millones de registros; además son las que más se actualizan. Por esta razón, cuando las transacciones en los sistemas OLTP son de manera masiva, se debe aplicar ingeniería de optimización de hechos, ya sea traer datos por periodo (snapshot), tablas agregadas, particionadas, etc.
+          p.mb-3.my-4.mx-4 #[b Las tablas de hechos (#[em Fact]):] representan los eventos que suceden en determinado contexto-tiempo. Se caracterizan por permitir el análisis de los datos con el máximo detalle, son tablas que no tienen medida y suelen ser tablas más robustas, que contienen miles o millones de registros; además son las que más se actualizan. Por esta razón, cuando las transacciones en los sistemas #[em OLTP] son de manera masiva, se debe aplicar ingeniería de optimización de hechos, ya sea traer datos por periodo #[em (snapshot)], tablas agregadas, particionadas, etc.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in")
       .col-sm-12.col-lg-8.mb-3.mb-lg-0
@@ -115,9 +115,9 @@
     
     separador
     #t_4_3.titulo-segundo.color-acento-contenido
-      h2 4.3  Cubos OLAP y ROLAP
+      h2 4.3  #[em Cubos OLAP] y #[em ROLAP]
 
-    p.mb-3 Los cubos de datos, no son precisamente parte del proceso ETL, los cubos es una estructura en la que la bodega de datos o el #[em Data Warehouse] (DWH) entrega datos para consumirlos a través de visualización en tablas o gráficos multidimensionales.
+    p.mb-3 Los cubos de datos, no son precisamente parte del proceso #[em ETL], los cubos es una estructura en la que la bodega de datos o el #[em Data Warehouse (DWH)] entrega datos para consumirlos a través de visualización en tablas o gráficos multidimensionales.
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-lg-2.col-8
@@ -126,14 +126,14 @@
         .cajon.BGR08.p-4.mb-0
           .row.justify-content-center
             .col-lg-11.col-12
-              p.mb-0 #[b OLAP (#[em OnLine Analytical Processing ]]- Procesamiento Analítico en Línea): se refiere a una estructura multidimensional que contiene información con objetivos analíticos; se compone principalmente de dimensiones y medidas. Las dimensiones definen la estructura del cubo que se utiliza para segmentar y dividir los datos, y las medidas proporcionan valores numéricos.
+              p.mb-0 #[b #[em OLAP (OnLine Analytical Processing ]]- Procesamiento Analítico en Línea): se refiere a una estructura multidimensional que contiene información con objetivos analíticos; se compone principalmente de dimensiones y medidas. Las dimensiones definen la estructura del cubo que se utiliza para segmentar y dividir los datos, y las medidas proporcionan valores numéricos.
     p.mb-4 Como estructura lógica, un cubo permite a una aplicación cliente recuperar valores de medidas, como si estuvieran almacenados en las celdas del cubo, adicional se presentan estructuras por jerarquía de datos que podrían definir de alguna manera la profundidad o detalle de las consultas; el ejemplo más común de datos jerárquicos es el tiempo, que tiene año, trimestre, mes, semana, día; esto puede definir el detalle de los reportes.
     
     .row.justify-content-center.align-items-center(data-aos="fade-right")      
       .col-lg-8.col-12
         .cajon.color-serv.p-4.mb-lg-0
-          p.mx-0.my-0 #[b Las aplicaciones OLAP] son uno de los pilares de cualquier solución de Inteligencia de Negocios, debido a que provee información sumarizada a los que toman las decisiones, mediante métodos convenientes de navegación que les permiten analizar y mantener una conversación fluida con los datos de la organización, en óptimos tiempos de respuesta.
-        p.mb-5.my-3 Parte de la utilidad de los cubos de datos es que podrían ser consumidos por cada área del negocio, es decir, por cada departamento o área tener acceso a sus datos específicos y construir sus reportes en una aplicación local ya sea #[em Excel, Power BI, Tableau] u otro disponible.
+          p.mx-0.my-0 #[b Las aplicaciones #[em OLAP]] son uno de los pilares de cualquier solución de Inteligencia de Negocios, debido a que provee información sumarizada a los que toman las decisiones, mediante métodos convenientes de navegación que les permiten analizar y mantener una conversación fluida con los datos de la organización, en óptimos tiempos de respuesta.
+        p.mb-5.my-3 Parte de la utilidad de los cubos de datos es que podrían ser consumidos por cada área del negocio, es decir, por cada departamento o área tener acceso a sus datos específicos y construir sus reportes en una aplicación local ya sea Excel, Power BI, Tableau u otro disponible.
       .col-lg-4.col-8
         img.mx-0.my-1.jar.d-none.d-lg-block(alt="" src="@/assets/curso/temas/tema4/img9.png")
 
@@ -141,7 +141,7 @@
       .col-lg-9.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 12.
-          span Autoconsumo de datos mediante OLAP
+          span Autoconsumo de datos mediante #[em OLAP]
         figure
           img(src='@/assets/curso/temas/tema4/img10.svg', alt='el diagrama define la relación entre un Data Warehouse y diferentes tipos de datos (RRHH, financiero, comercial y ventas)  y usuarios finales (Reportes BI, excel, tableau)')    
     
@@ -152,7 +152,7 @@
         .cajon.BGR08.p-4.mb-0
           .row.justify-content-center
             .col-lg-11.col-12
-              p.mb-0 #[b ROLAP (procesamiento analítico online relacional)]: a partir de datos tabulares, se construyen cubos con diferentes dimensiones, pero su arquitectura interna se aplica sobre tablas relacionales clásicas. Si bien pudiera ser más rápido su desarrollo, no es muy recomendado, a no ser que no tenga muchas transacciones y los datos del sistema transaccional sean de plena confianza y calidad de datos.
+              p.mb-0 #[b #[em ROLAP] (procesamiento analítico #[em online] relacional)]: a partir de datos tabulares, se construyen cubos con diferentes dimensiones, pero su arquitectura interna se aplica sobre tablas relacionales clásicas. Si bien pudiera ser más rápido su desarrollo, no es muy recomendado, a no ser que no tenga muchas transacciones y los datos del sistema transaccional sean de plena confianza y calidad de datos.
 
     separador
     #t_4_4.titulo-segundo.color-acento-contenido
@@ -160,7 +160,7 @@
       
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")      
       .col-lg-12.col-12
-        p.mb-4  Existen diversos conceptos del llenado de datos para la bodega de datos o almacén de datos #[em (Data Warehouse),] se presentan diversas arquitecturas, en otros materiales de formación se amplía los dos modelos predominantes: modelo #[em Inmon] y el modelo #[em Kimball]. Independientemente del modelo empleado, todos los procesos ETL contienen los tres elementos principales: extracción, transformación y carga.
+        p.mb-4  Existen diversos conceptos del llenado de datos para la bodega de datos o almacén de datos #[em (Data Warehouse),] se presentan diversas arquitecturas, en otros materiales de formación se amplía los dos modelos predominantes: modelo #[em Inmon] y el modelo #[em Kimball]. Independientemente del modelo empleado, todos los procesos #[em ETL] contienen los tres elementos principales: extracción, transformación y carga.
     
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-lg-12.mb-3.mb-lg-0
@@ -173,8 +173,8 @@
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")      
       .col-lg-12.col-12
         .cajon.color-bloq.p-5.mb-lg-0.mb-3
-          p.mb-4 La arquitectura o estructura completa se puede resumir en dos grandes procesos: el proceso ETL y el desarrollo de reportes con los cuales los datos toman valor y conocimiento para el negocio.
-          p.mb-0 #[b ETL:] consta de tres etapas, el desarrollador de inteligencia de negocio deberá tener en cuenta la extracción, identificando las fuentes de datos de los sistemas OLPT y otros no transaccionales, pero que aportan al conocimiento del negocio, así como su transformación y carga en bases de datos robustas que conservan las dimensiones, tablas de hechos y medidas de pertinentes.
+          p.mb-4 La arquitectura o estructura completa se puede resumir en dos grandes procesos: el proceso #[em ETL] y el desarrollo de reportes con los cuales los datos toman valor y conocimiento para el negocio.
+          p.mb-0 #[b #[em ETL:]] consta de tres etapas, el desarrollador de inteligencia de negocio deberá tener en cuenta la extracción, identificando las fuentes de datos de los sistemas #[em OLPT] y otros no transaccionales, pero que aportan al conocimiento del negocio, así como su transformación y carga en bases de datos robustas que conservan las dimensiones, tablas de hechos y medidas de pertinentes.
     
     .mb-5
     p.mb-4 #[b La extracción de datos de los procesos:] las organizaciones actuales, tienen enfoques hacia los procesos, y todos los procesos deberían de ir asociados de manera directa o indirecta a los clientes; de allí se denomina que organizaciones no dependen de personas sino de procesos y adicional, tienen enfoque hacia el cliente.
@@ -241,7 +241,7 @@
           .col-6.col-md-6.col-lg-4
             img.mb-3(src="@/assets/curso/temas/tema4/img16.svg")
         
-        p Si bien estrictamente esta etapa no corresponde al proceso ETL, el objetivo es que todos esos datos recolectados, copiados y optimizados sean consumidos por el nivel de decisión, no necesariamente son los gerentes, los empleados también deben conocer sus gestiones y resultados en gráficos y dashboards que den cuenta de su propio rendimiento, allí también se genera una acción de autoevaluación y toman decisiones sobre sus propias funciones en la empresa.
+        p Si bien estrictamente esta etapa no corresponde al proceso #[em ETL], el objetivo es que todos esos datos recolectados, copiados y optimizados sean consumidos por el nivel de decisión, no necesariamente son los gerentes, los empleados también deben conocer sus gestiones y resultados en gráficos y #[em dashboards] que den cuenta de su propio rendimiento, allí también se genera una acción de autoevaluación y toman decisiones sobre sus propias funciones en la empresa.
     
     p En términos generales, la gerencia ya no tendrá que llamar a los líderes de cada proceso para que les dé explicación de una situación general, ya las directivas tendrán las cifras en sus teléfonos celulares, en cualquier lugar a cualquier hora. Esto permite tener empresas más eficientes, con capacidad de reaccionar más pronto y tomar mejores decisiones. 
 

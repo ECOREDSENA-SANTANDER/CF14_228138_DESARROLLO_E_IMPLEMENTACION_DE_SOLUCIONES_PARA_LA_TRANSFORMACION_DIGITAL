@@ -11,7 +11,7 @@
       .col-lg-4.col-8.mb-2
         img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema3/img1.png" alt="")
       .col-lg-8.col-12.mb-2
-        p.mb-3.my-3 Desde el contexto de inteligencia de negocios, los sistemas transaccionales son las fuentes de datos que alimentan los sistemas ETL, si bien existen otras fuentes tales como reportes de internet (analíticas de #[em web] y redes sociales, entre otros), archivos multimedia, archivos planos, tablas de Excel, etc. Los sistemas transaccionales son las fuentes más convencionales en las fases de carga y transformación. 
+        p.mb-3.my-3 Desde el contexto de inteligencia de negocios, los sistemas transaccionales son las fuentes de datos que alimentan los sistemas #[em ETL], si bien existen otras fuentes tales como reportes de internet (analíticas de #[em web] y redes sociales, entre otros), archivos multimedia, archivos planos, tablas de Excel, etc. Los sistemas transaccionales son las fuentes más convencionales en las fases de carga y transformación. 
         .mb-4
         .cajac.color-secundario.p-4.mb-4
           .col-lg-7.my-0
@@ -81,7 +81,7 @@
 
     separador
     #t_3_1.titulo-segundo.color-acento-contenido
-      h2 3.1  OLTP
+      h2 3.1 #[em OLTP]
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-12.col-12
@@ -90,7 +90,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img4.svg')})`}"
           )
           .bloque-texto-g__texto.p-lg-4.py-lg-6.p-2
-            p.mb-0 El procesamiento de transacciones en línea #[em #[b (Online Transaction Processing)]], en las gráficas típicas de los ETL, aparecen los OLTP como fuentes importantes de datos, esto se refiere a sistemas de información desarrollados o implementados en áreas específicas del negocio. Sirven como apoyo tecnológico específico de un área en particular; estas aplicaciones pueden ser de tipo administrativo en lo referente a las transacciones de las dependencias como Talento humano, área financiera, contable, nómina, etc.
+            p.mb-0 El procesamiento de transacciones en línea #[em #[b (Online Transaction Processing)]], en las gráficas típicas de los #[em ETL], aparecen los #[em OLTP] como fuentes importantes de datos, esto se refiere a sistemas de información desarrollados o implementados en áreas específicas del negocio. Sirven como apoyo tecnológico específico de un área en particular; estas aplicaciones pueden ser de tipo administrativo en lo referente a las transacciones de las dependencias como Talento humano, área financiera, contable, nómina, etc.
     
     p.mb-4 Otro tipo de aplicaciones de apoyo, son aquellas que se emplean en los procesos de producción, por ejemplo, si una compañía se dedica a la comercialización de productos de infraestructuras y equipos eléctricos de gran envergadura, tendrá un área de mercadeo, otra de ofertas, licitaciones y ventas.
     
@@ -101,7 +101,7 @@
         .col-lg-4.col-8
           img.mb-0(alt="" src="@/assets/curso/temas/tema3/img5.svg")
     
-    p.mb-4 Adicionalmente, se debe llevar registro no solo de quienes cierran el negocio, es clave en este caso, tener todos los datos entre la campaña marketing, eficiencia de las ofertas y eficacia de los vendedores para determinar el porcentaje de éxito del negocio.
+    p.mb-4 Adicionalmente, se debe llevar registro no solo de quienes cierran el negocio, es clave en este caso, tener todos los datos entre la campaña #[em marketing], eficiencia de las ofertas y eficacia de los vendedores para determinar el porcentaje de éxito del negocio.
         
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-lg-1.col-12
@@ -115,12 +115,12 @@
       .col-lg-6.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 3.
-          span Sistemas transaccionales OLTP  
+          span Sistemas transaccionales #[em OLTP]  
           
         figure
           img(src='@/assets/curso/temas/tema3/img6.svg', alt='La figura 3 ilustra los sistemas transaccionales OLTP (Online Transaction Processing) en tres áreas clave de una organización: talento humano, finanzas y contabilidad, y comercial y ventas. Cada sección muestra cómo los datos se recopilan y se envían a un sistema OLTP, destacando la importancia de estos sistemas en el manejo y procesamiento de datos transaccionales para diversas funciones empresariales.')
           
-    p.mb-4 Estos son ejemplos de sistemas transaccionales basados en OLTP que, generalmente, existen en las organizaciones.
+    p.mb-4 Estos son ejemplos de sistemas transaccionales basados en #[em OLTP] que, generalmente, existen en las organizaciones.
     p También hay otras fuentes de información que se deben tener en cuenta, pues no todas las áreas funcionan con aplicaciones conectadas a bases de datos, además, existen procesos que podrían llegar a ser muy eficientes y con información adecuada que alimente el sistema de inteligencia de negocios con el uso de otros recursos, esto se conoce como fuentes de no transaccionales y las más comunes son:
     
     .row(data-aos="zoom-in")
@@ -136,9 +136,9 @@
                     
           .row(titulo="Fuentes externas")
             .col-12.ps-5
-                  p.mb-0 Dependiendo de la solución, se hace necesario cruzar datos abiertos ya sea para garantizar consistencias o para incluir datos de big data. Por ejemplo: traer información del clima de cada ciudad de operaciones podría incluirse en los reportes de analítica en caso de presentarse la hipótesis de que el clima influencia con las ventas.
+                  p.mb-0 Dependiendo de la solución, se hace necesario cruzar datos abiertos ya sea para garantizar consistencias o para incluir datos de #[em big data]. Por ejemplo: traer información del clima de cada ciudad de operaciones podría incluirse en los reportes de analítica en caso de presentarse la hipótesis de que el clima influencia con las ventas.
 
-          .row(titulo="Internet de las cosas (IoT).")
+          .row(titulo="Internet de las cosas (<em>IoT</em>)")
             .col-12.ps-5
                   p.mb-0 Cada vez se usan sensores y dispositivos que registran acciones; los datos de estas tecnologías podrían incluirse en los sistemas de inteligencia de negocios para monitorear accesos, procesos de producción y otros controles que podrían estar también a disposición del nivel de decisión.
 
@@ -153,14 +153,14 @@
     
     separador
     #t_3_2.titulo-segundo.color-acento-contenido
-      h2 3.2  SQL
+      h2 3.2 #[em SQL]
     
     .row.justify-content-center.align-items-center.mb-2(data-aos="fade-left")
       .col-lg-4.col-8
         img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema3/img8.svg" alt="")
       .col-lg-8.col-12
-        p.mb-4 Lenguaje estructurado de datos #[em (Structured Query Language);] es un lenguaje de programación para la gestión de bases de datos, a través de sentencias SQL, se accede y manipula datos de cualquier base de datos relacional del mercado, entre las más comunes #[em MySQL, ORACLE, DB2, SQL SERVER], etc.
-        p Como todo lenguaje, se compone de sentencias, cada una con utilidades y funciones diferentes; para administrar bases de datos y ejecutar sentencias SQL es necesario también un ambiente de desarrollo llamado IDE; existen múltiples opciones, las más recomendadas para descargar son:
+        p.mb-4 Lenguaje estructurado de datos #[em (Structured Query Language);] es un lenguaje de programación para la gestión de bases de datos, a través de sentencias #[em SQL], se accede y manipula datos de cualquier base de datos relacional del mercado, entre las más comunes #[em MySQL, ORACLE, DB2, SQL SERVER], etc.
+        p Como todo lenguaje, se compone de sentencias, cada una con utilidades y funciones diferentes; para administrar bases de datos y ejecutar sentencias #[em SQL] es necesario también un ambiente de desarrollo llamado IDE; existen múltiples opciones, las más recomendadas para descargar son:
     
     
     .row.d-flex.justify-content-center.mb-4
@@ -179,7 +179,7 @@
                       img.iggg.mb-lg-0.mb-3.d-none.d-lg-block(src="@/assets/curso/temas/tema3/sii.svg")
                   .col-lg-6.col-12
                     h3.mb-2 Sitio #[em web]. 
-                    p.text-small.mb-lg-0.mb-3 https://sqlitebrowser.org/
+                    p.text-small.mb-lg-0.mb-3 #[em https://sqlitebrowser.org/]
                   .col-lg-4.col-12
                     .d-flex.justify-content-center
                       a.boton.colores-acento-botones(href="https://sqlitebrowser.org/" target="_blank")
@@ -217,7 +217,7 @@
       .col-lg-10.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 4.
-          span Ambiente de las herramientas de gestion de bases de datos.
+          span Ambiente de las herramientas de gestión de bases de datos
         figure
           img(src='@/assets/curso/temas/tema3/img10.png', alt='La figura 4 muestra el entorno de trabajo de una herramienta de gestión de bases de datos, destacando varios componentes clave. Incluye un navegador de esquemas, tablas y elementos de las bases de datos, un menú y barras de herramientas para la gestión y manipulación de las funciones de la aplicación, y un área de trabajo donde se pueden escribir consultas SQL. También se presentan los resultados de las consultas ejecutadas y la información de rendimiento y reportes de las consultas, proporcionando una vista integral del proceso de gestión y análisis de bases de datos. ')
       
@@ -294,7 +294,7 @@
                     i.fas.fa-check
                     p.mb-0 #[b #[em JOIN] ] unir o combinar datos de diferentes tablas.
 
-    p.mb-4 Para llevar a la práctica los primeros pasos con las sentencias SQL, se usará un recurso en línea que, además de tener el ambiente gráfico para construir y ejecutar sentencias SQL, ya tiene una base de datos precargada para manipular los datos.
+    p.mb-4 Para llevar a la práctica los primeros pasos con las sentencias #[em SQL], se usará un recurso en línea que, además de tener el ambiente gráfico para construir y ejecutar sentencias #[em SQL], ya tiene una base de datos precargada para manipular los datos.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
       .col-lg-10.col-md-10.col-12
@@ -304,7 +304,7 @@
               .d-flex.justify-content-center
                 img.d-none.d-lg-block(style="width:150px" alt="" src="@/assets/curso/temas/tema3/extra.svg")
             .col-lg-6.col-12
-              h3.mb-2.text-white Programiz Online SQL Editor  
+              h3.mb-2.text-white Programiz #[em Online SQL Editor]  
               p.text-small.text-white.mb-lg-0.mb-3 Ingresar a la plataforma:
             .col-lg-3.col-12
               .d-flex.justify-content-center
@@ -319,7 +319,7 @@
         .bg-49.p-4.my-3
     
           p.mb-0.mx-4 #[b Sentencia: #[em Select].]
-          p.mb-0.mx-4 Para iniciar, el ejemplo sencillo de presentar todas las columnas de la tabla Orders.
+          p.mb-0.mx-4 Para iniciar, el ejemplo sencillo de presentar todas las columnas de la tabla #[em Orders].
     
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-lg-8.mb-3.mb-lg-0
@@ -342,7 +342,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/img12.png', alt='la figura ejemplifica un ejercicio para organizar datos de una manera especifica, con una secuencia determinada de sentencias.  Además, se realiza la traducción y explicación de cada sentencia utilizada.')
       
-    p.mb-4 #[b Para agregar un nuevo registro, debe usar la sentencia: INSERT INTO.]
+    p.mb-4 #[b Para agregar un nuevo registro, debe usar la sentencia: #[em INSERT INTO.]]
     
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-lg-9.mb-3.mb-lg-0
@@ -357,14 +357,14 @@
       .col-lg-6.order-lg-1(data-aos="fade-right")
         p.mb-4.my-4 Para unir tablas o traer datos de otras tablas, es necesario tener claridad sobre las columnas que relacionan una tabla a otras, pues las uniones solo son posibles si se tiene un campo en común que asocie los conjuntos de datos.
         p.mb-4 En el siguiente ejemplo se tienen las tablas #[em Orders] (órdenes) y #[em Customers] (clientes), el campo en común en la tabla ordenes que asocia un cliente a través de #[em “customer_id”]. A continuación, se desea ver en una sola tabla el id de la orden y el monto (que están en la tabla #[em ‘Orders’]), pero también el nombre del cliente (que está en la tabla #[em Customers])
-        p.mb-4 En el proceso ETL se presentan necesidades que en el ambiente gráfico se queda corto y será imposible de realizar, si bien la mayoría de las herramientas son basadas en gráficos y ventanas, se hace necesario codificar algunas tareas del proceso de carga y transformación, por esto es importante tener claridad y habilidades sobre el manejo especialmente de #[em SQL] y otros lenguajes de consulta de datos.
+        p.mb-4 En el proceso #[em ETL] se presentan necesidades que en el ambiente gráfico se queda corto y será imposible de realizar, si bien la mayoría de las herramientas son basadas en gráficos y ventanas, se hace necesario codificar algunas tareas del proceso de carga y transformación, por esto es importante tener claridad y habilidades sobre el manejo especialmente de #[em SQL] y otros lenguajes de consulta de datos.
       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0(data-aos="fade-left")
         img(src="@/assets/curso/temas/tema3/img14.png")
     
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-lg-9.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 8
+          h5 Figura 8.
           span #[em JOIN] - Uniones en #[em SQL]
         
         figure
@@ -381,7 +381,7 @@
                 img.mb-lg-0.mb-3.d-none.d-lg-block(style="width:80px" alt="" src="@/assets/curso/temas/tema3/sqll.svg")
             .col-lg-7.col-12
               h3.mb-2.text-white SQL Joins 
-              p.text-small.text-white.mb-lg-0.mb-3 En este sitio indican cómo usar cada sentencia SQL, para que seguir profundizando en el tema:
+              p.text-small.text-white.mb-lg-0.mb-3 En este sitio indican cómo usar cada sentencia #[em SQL], para que seguir profundizando en el tema:
             .col-lg-3.col-12
               .d-flex.justify-content-center
                 a.boton.color-acento-botones(href="https://www.w3schools.com/sql/sql_join.asp" target="_blank")
@@ -393,7 +393,7 @@
 
     separador
     #t_3_3.titulo-segundo.color-acento-contenido
-      h2 3.3  No-#[em SQL]
+      h2 3.3  #[em No-SQL]
     
     p.mb-4 Es importante reconocer las diferencias entre las bases de datos relacionales #[em SQL] y las no relacionales #[em (no SQL)], para mejor entendimiento, por eso en la siguiente tabla se realiza un cuadro comparativo entre estos tipos de bases de bases de datos, empleando como ejemplo el motor de base de datos Mongo DB que actualmente es el gestor #[em NoSQL] más usado y especializado en este tipo de conceptos de arreglo de datos.
     
@@ -409,8 +409,8 @@
           table
             thead
               tr
-                th.text-white SQL
-                th.text-white NoSQL
+                th.text-white #[em SQL]
+                th.text-white #[em NoSQL]
             tbody
               tr
                 td.gra Relacionales: se asocia directamente otras colecciones de datos estructuradas.
@@ -428,7 +428,7 @@
                 td.gra  Su velocidad se afecta a medida que incrementa los datos.
                 td.gra Es muy veloz, incluso con altos volúmenes de datos.
               tr
-                td.gre Los datos deben estar configurados estrictamente(tipo, tamaño, formato, etc.).
+                td.gre Los datos deben estar configurados estrictamente (tipo, tamaño, formato, etc.).
                 td.gre Es más libre. No es estricto con los esquemas.
     
     p.mb-4 Si bien las bases de datos #[em NoSQL] tienen una estructura conceptual distinta, podría verse en su equivalencia de la siguiente manera:

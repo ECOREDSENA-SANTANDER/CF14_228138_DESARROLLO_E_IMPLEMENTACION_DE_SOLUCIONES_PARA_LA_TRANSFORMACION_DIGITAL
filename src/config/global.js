@@ -161,72 +161,62 @@ export default {
     {
       tema: 'Extracción y minería de datos',
       referencia:
-        'Conesa Caralt, J. & Curto Díaz, J. (2013). Introducción al Business Intelligence.. Editorial UOC. https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/56524 ',
-      tipo: 'Libro ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/56524 ',
+        'Conesa, C., J., y Curto, D., J. (2013). Introducción al Business Intelligence. Editorial UOC.',
+      tipo: 'Video',
+      link: 'https://youtu.be/FJ91HT6aNiM',
     },
     {
       tema: 'Astera',
       referencia:
-        'Astera software. (2020). Extracción de PDF y exportación a Excel en Astera ReportMiner [Archivo de Vídeo]. YouTube. https://youtu.be/Fzk4wgYhY4Y ',
-      tipo: 'Video ',
-      link: 'https://youtu.be/Fzk4wgYhY4Y',
+        'Astera software. (2020). Extracción de PDF y exportación a Excel en Astera ReportMiner.',
+      tipo: 'Blog',
+      link: 'https://www.astera.com/es/tipo/blog/extraer-datos-de-pdf-a-excel/',
     },
     {
-      tema: 'SQL',
+      tema: '<em>SQL</em>',
       referencia:
-        'Quintana, G. (2014). Aprende SQL Repositorio Sena eLibro. https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53252 ',
-      tipo: 'Libro ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/53252  ',
+        'Learn SQL: The best & easiest way to learn SQL. (s. f.-a). SQL Easy.',
+      tipo: 'Blog',
+      link: 'https://www.sql-easy.com/es/',
     },
     {
-      tema: 'NO-SQL',
+      tema: '<em>NO-SQL</em>',
       referencia:
-        'Canal Ecosistema de Recursos Educativos Digitales SENA. (13 de diciembre de 2021). NOSQL [Archivo de Vídeo]. ',
-      tipo: 'Video clase ',
-      link: 'https://youtu.be/u1IKJMISMgs  ',
-    },
-    {
-      tema: ' Herramientas Tecnológicas de ETL',
-      referencia:
-        'Apps Run The World. (2021). Top 10 Analytics and BI Software Vendors, Market Size and Market Forecast 2021-2026. https://www.appsruntheworld.com/top-10-analytics-and-bi-software-vendors-and-market-forecast/ ',
-      tipo: 'Artículo ',
-      link:
-        'https://www.appsruntheworld.com/top-10-analytics-and-bi-software-vendors-and-market-forecast/ ',
+        'Canal Ecosistema de Recursos Educativos Digitales SENA. (2021). NOSQL.',
+      tipo: 'Video clase',
+      link: 'https://youtu.be/u1IKJMISMgs',
     },
   ],
   glosario: [
     {
-      termino: '<em>Bytes</em> ',
+      termino: '<em>Bytes</em>',
       significado:
-        'Unidad de medida de información. 1 byte corresponde a 8 bits, y a partir de esta unidad se determina el volumen de la información. ',
+        'Unidad de medida de información. 1 <em>byte</em> corresponde a 8 bits, y a partir de esta unidad se determina el volumen de la información.',
     },
     {
-      termino: '<em>Dashboard</em> ',
+      termino: '<em>Dashboard</em>',
       significado:
-        'Tableros de mando, es el recurso que resulta a partir del proceso de ETL. Es la manera de consumir datos y proporcionar conocimiento del negocio ',
+        'Tableros de mando, es el recurso que resulta a partir del proceso de <em>ETL</em>. Es la manera de consumir datos y proporcionar conocimiento del negocio.',
     },
     {
       termino: '<em>Datamart</em>',
       significado:
-        'Es la versión específica de cada área del <em>Data Warehouse</em>, son los datos concentrados por cada área del negocio. Son subconjuntos de colección de datos que alimentan a la bodega de datos y el resto de los recursos analíticos ',
+        'Es la versión específica de cada área del <em>Data Warehouse</em>, son los datos concentrados por cada área del negocio. Son subconjuntos de colección de datos que alimentan a la bodega de datos y el resto de los recursos analíticos.',
     },
     {
-      termino: '<em>Machine Learning </em>',
+      termino: '<em>Machine Learning</em>',
       significado:
-        'Area de la IA que se responsabiliza de procesos de aprendizaje en el contexto de los datos se establecen aprendizaje supervisado y no supervisado, dependiendo del modelo de aprendizaje se establecen los algoritmos para desarrollar modelos predictivos y prescriptivos según el modelo analítico. ',
+        'área de la IA que se responsabiliza de procesos de aprendizaje en el contexto de los datos se establecen aprendizaje supervisado y no supervisado, dependiendo del modelo de aprendizaje se establecen los algoritmos para desarrollar modelos predictivos y prescriptivos según el modelo analítico.',
     },
     {
-      termino: 'IDE ',
+      termino: '<em>IDE</em>',
       significado:
-        '"<em>Integrated Development Environment</em>", en su traducción: Entorno de desarrollo integrado, se trata de una herramienta o entorno que integra otras herramientas, de esta manera el desarrollador no se preocupa de instalar recursos adicionales, todo estará en una sola herramienta que integra otras para que así, el profesional se dedique solo a la programación ',
+        '"<em>Integrated Development Environment</em>", en su traducción: Entorno de desarrollo integrado, se trata de una herramienta o entorno que integra otras herramientas, de esta manera el desarrollador no se preocupa de instalar recursos adicionales, todo estará en una sola herramienta que integra otras para que así, el profesional se dedique solo a la programación.',
     },
     {
-      termino: 'IA ',
+      termino: 'IA',
       significado:
-        'Abreviación de Inteligencia artificial. Área informática que simula procesos cognitivos humanos tales como aprendizaje, decisiones, y procesos complejos. ',
+        'Abreviación de Inteligencia artificial. Área informática que simula procesos cognitivos humanos tales como aprendizaje, decisiones, y procesos complejos.',
     },
   ],
   referencias: [
@@ -324,6 +314,11 @@ export default {
           cargo: 'Animadora y Productora Multimedia',
           centro: 'Regional Santander - Centro Agroturístico',
         },
+        {
+          nombre: 'Lucenith Pinilla Moreno',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
       ],
     },
     {
@@ -336,7 +331,7 @@ export default {
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',
-          cargo: 'Validación de Contenidos Accesibles',
+          cargo: 'Validadora para Contenidos Inclusivos y Accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],

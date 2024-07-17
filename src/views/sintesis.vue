@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se presenta el diagrama que representa el resumen de las temáticas que están desarrolladas en el componente formativo. 
+    p.mb-5 A continuación, se presenta el diagrama que representa el resumen de las temáticas que están desarrolladas en el componente formativo, en donde se explica el proceso de integración de datos y ETL, que comienza con la extracción de datos de diversas fuentes, seguido de la limpieza y optimización con herramientas como Open Refine y Astera.
     .row.justify-content-center
       .col-lg-12.mb-5
         figure
