@@ -20,7 +20,7 @@
     figure(data-aos="fade-right")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/ilmPbQSBBoM?si=B5r4C6d3bLqT4-8y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-      figcaption Video. Análisis y valoración de riesgos de ciberseguridad 
+      figcaption Video. Proceso de integración de datos y ETL
 </template>
 
 <script>

@@ -143,12 +143,12 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CF14_228138_DU.pdf',
       },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
-        download: 'downloads/material.zip',
+        download: 'downloads/CF14_228138_DU.zip',
       },
       {
         icono: 'far fa-registered',
