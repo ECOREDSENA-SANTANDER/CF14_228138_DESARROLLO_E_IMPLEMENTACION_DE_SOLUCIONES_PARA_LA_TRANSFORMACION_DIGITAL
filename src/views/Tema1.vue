@@ -26,7 +26,7 @@
         .bg-50.p-4
           .row.justify-content-center
             .col-sm-12.col-lg-8.my-4
-              p.mb-0 #[b La minería de datos se encuentra estrechamente relacionada con la aplicación de inteligencia artificial (IA),] en específico con procesos y técnicas algorítmicas de #[em Machine Learning (ML)] con sus múltiples posibilidades que son tema de profundización en otros componentes, adicional se emplea ostros aspectos de ingeniería como árboles de decisiones, redes neuronales, entre otros. 
+              p.mb-0 #[b La minería de datos se encuentra estrechamente relacionada con la aplicación de inteligencia artificial (IA),] en específico con procesos y técnicas algorítmicas de #[em Machine Learning (ML)] con sus múltiples posibilidades que son tema de profundización en otros componentes, adicional se emplea otros aspectos de ingeniería como árboles de decisiones, redes neuronales, entre otros. 
             .col-sm-12.col-lg-2.my-3
               img.img-a.img-t(src='@/assets/curso/temas/tema1/img2.svg', alt='imagen decorativa') 
 

@@ -14,7 +14,7 @@
         img.img-a.img-t(src="@/assets/curso/temas/introduccion/introduccion.svg" alt="")
       .col-lg-7.col-12.my-3
         .cajon.color-secundario.p-4.my-4
-          p.mb-0 En este componente se abordarán los co-nceptos y fundamentos del proceso de extracción, transformación y carga de datos, con el fin de procesar la información para la visualización y análisis, que permita la toma de decisiones. A continuación, se presenta un video que contextualiza al respecto:
+          p.mb-0 En este componente se abordarán los conceptos y fundamentos del proceso de extracción, transformación y carga de datos, con el fin de procesar la información para la visualización y análisis, que permita la toma de decisiones. A continuación, se presenta un video que contextualiza al respecto:
 
 
     figure(data-aos="fade-right")

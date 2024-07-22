@@ -71,7 +71,7 @@ export default {
           },
           {
             numero: '3.3',
-            titulo: 'NO-SQL',
+            titulo: 'No-SQL',
             hash: 't_3_3',
           },
         ],
@@ -143,12 +143,12 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CF14_228138_DU.pdf',
+        download: 'downloads/CF14_228138_DU.zip',
       },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
-        download: 'downloads/CF14_228138_DU.zip',
+        download: 'downloads/material.zip',
       },
       {
         icono: 'far fa-registered',
@@ -180,9 +180,9 @@ export default {
       link: 'https://www.sql-easy.com/es/',
     },
     {
-      tema: '<em>NO-SQL</em>',
+      tema: '<em>No-SQL</em>',
       referencia:
-        'Canal Ecosistema de Recursos Educativos Digitales SENA. (2021). NOSQL.',
+        'Canal Ecosistema de Recursos Educativos Digitales SENA. (2021). No-SQL.',
       tipo: 'Video clase',
       link: 'https://youtu.be/u1IKJMISMgs',
     },

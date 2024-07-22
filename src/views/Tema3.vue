@@ -54,7 +54,7 @@
             .row.justify-content-center.p-4
               .col-lg-6.col-12.my-3
                 h4.mb-4 Por guía a objetos
-                p.mb-3 Este modelo hace uso de su administración y creación por funciones lo que permite manejar programas y operaciones por separado, tiene la capacidad de trabajar sobre volúmenes altos de información de forma óptima.
+                p.mb-3 Este modelo hace uso de su administración y creación por funciones, lo que permite manejar programas y operaciones por separado, tiene la capacidad de trabajar sobre volúmenes altos de información de forma óptima.
               .col-lg-6.col-12
                 img(alt="" src="@/assets/curso/temas/tema3/img3.5.svg")
 
@@ -132,11 +132,11 @@
 
           .row(titulo="Archivos planos")
             .col-12.ps-5
-                  p.mb-0 Por lo general en CSV o TXT, suelen ser exportaciones de sistemas que no permiten conexión directa a las bases de datos.
+                  p.mb-0 Por lo general, en CSV o TXT, suelen ser exportaciones de sistemas que no permiten conexión directa a las bases de datos.
                     
           .row(titulo="Fuentes externas")
             .col-12.ps-5
-                  p.mb-0 Dependiendo de la solución, se hace necesario cruzar datos abiertos ya sea para garantizar consistencias o para incluir datos de #[em big data]. Por ejemplo: traer información del clima de cada ciudad de operaciones podría incluirse en los reportes de analítica en caso de presentarse la hipótesis de que el clima influencia con las ventas.
+                  p.mb-0 Dependiendo de la solución, se hace necesario cruzar datos abiertos, ya sea para garantizar consistencias o para incluir datos de #[em big data]. Por ejemplo: traer información del clima de cada ciudad de operaciones podría incluirse en los reportes de analítica en caso de presentarse la hipótesis de que el clima influencia con las ventas.
 
           .row(titulo="Internet de las cosas (<em>IoT</em>)")
             .col-12.ps-5
@@ -312,7 +312,7 @@
                   span Ir al enlace
                   i.fas.fa-external-link-alt
 
-    p.mb-3 #[b Este ambiente cuenta con una base de datos que contiene tres tablas: #[em customers, orders y shipings]. Realiza los siguiente ejercicios y práctica de las sentencias #[em SQL] que se proponen a continuación:]
+    p.mb-3 #[b Este ambiente cuenta con una base de datos que contiene tres tablas: #[em customers, orders y shipings]. Realiza los siguientes ejercicios y práctica de las sentencias #[em SQL] que se proponen a continuación:]
     
     .row.justify-content-center.mb-2(data-aos="zoom-in")
       .col-lg-8.mb-3.mb-lg-0
@@ -337,7 +337,7 @@
       .col-lg-9.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 6.
-          span Sentencia #[em SQL] con condicion y ordenamiento
+          span Sentencia #[em SQL] con condición y ordenamiento
         
         figure
           img(src='@/assets/curso/temas/tema3/img12.png', alt='la figura ejemplifica un ejercicio para organizar datos de una manera especifica, con una secuencia determinada de sentencias.  Además, se realiza la traducción y explicación de cada sentencia utilizada.')
@@ -395,22 +395,22 @@
     #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3  #[em No-SQL]
     
-    p.mb-4 Es importante reconocer las diferencias entre las bases de datos relacionales #[em SQL] y las no relacionales #[em (no SQL)], para mejor entendimiento, por eso en la siguiente tabla se realiza un cuadro comparativo entre estos tipos de bases de bases de datos, empleando como ejemplo el motor de base de datos Mongo DB que actualmente es el gestor #[em NoSQL] más usado y especializado en este tipo de conceptos de arreglo de datos.
+    p.mb-4 Es importante reconocer las diferencias entre las bases de datos relacionales #[em SQL] y las no relacionales #[em (No-SQL)], para mejor entendimiento, por eso en la siguiente tabla se realiza un cuadro comparativo entre estos tipos de bases de datos, empleando como ejemplo el motor de base de datos Mongo DB que actualmente es el gestor #[em No-SQL] más usado y especializado en este tipo de conceptos de arreglo de datos.
     
     .row.justify-content-center.mb-2
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
           h5 Tabla 1.
-          span Diferencias entre #[em SQL y NoSQL]
+          span Diferencias entre #[em SQL y No-SQL]
 
     .row.justify-content-center.align-items-start.mb-4
       .col-lg-10
-        .tabla-a(data-aos="fade-left")(alt="La tabla 1 compara las bases de datos SQL y NoSQL: las SQL son relacionales, utilizan el lenguaje SQL, emplean tablas con índices para ordenar y ubicar datos, y requieren configuraciones estrictas, aunque su velocidad disminuye con grandes volúmenes de datos. En contraste, las bases de datos NoSQL son no relacionales, utilizan estructuras tipo JavaScript, gestionan datos mediante colecciones de documentos como JSON y BSON, son muy veloces incluso con grandes volúmenes de datos, y tienen una estructura más flexible y menos estricta en cuanto a esquemas. ")
+        .tabla-a(data-aos="fade-left")(alt="La tabla 1 compara las bases de datos SQL y No-SQL: las SQL son relacionales, utilizan el lenguaje SQL, emplean tablas con índices para ordenar y ubicar datos, y requieren configuraciones estrictas, aunque su velocidad disminuye con grandes volúmenes de datos. En contraste, las bases de datos No-SQL son no relacionales, utilizan estructuras tipo JavaScript, gestionan datos mediante colecciones de documentos como JSON y BSON, son muy veloces incluso con grandes volúmenes de datos, y tienen una estructura más flexible y menos estricta en cuanto a esquemas. ")
           table
             thead
               tr
                 th.text-white #[em SQL]
-                th.text-white #[em NoSQL]
+                th.text-white #[em No-SQL]
             tbody
               tr
                 td.gra Relacionales: se asocia directamente otras colecciones de datos estructuradas.
@@ -431,7 +431,7 @@
                 td.gre Los datos deben estar configurados estrictamente (tipo, tamaño, formato, etc.).
                 td.gre Es más libre. No es estricto con los esquemas.
     
-    p.mb-4 Si bien las bases de datos #[em NoSQL] tienen una estructura conceptual distinta, podría verse en su equivalencia de la siguiente manera:
+    p.mb-4 Si bien las bases de datos #[em No-SQL] tienen una estructura conceptual distinta, podría verse en su equivalencia de la siguiente manera:
 
     .row.justify-content-center.mb-4(data-aos="zoom-in")
       .col-lg-10.mb-3.mb-lg-0
@@ -440,18 +440,18 @@
           span Equivalencias de estructuras
         
         figure
-          img(src='@/assets/curso/temas/tema3/img16.png', alt='En la imagen se presenta la equivalencia de dos bases de datos con la misma información: una SQL y la otra NoSQL.')
+          img(src='@/assets/curso/temas/tema3/img16.png', alt='En la imagen se presenta la equivalencia de dos bases de datos con la misma información: una SQL y la otra No-SQL.')
     
-    p.mb-4 En síntesis, las columnas en #[em NoSQL] son campos, los registros de cada campo se llaman Datos del documento y las filas pasarían a denominarse Documento.
+    p.mb-4 En síntesis, las columnas en #[em No-SQL] son campos, los registros de cada campo se llaman Datos del documento y las filas pasarían a denominarse Documento.
 
     .row.justify-content-center.mb-3(data-aos="zoom-in")
       .col-lg-7.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 10.
-          span Denominaciones de la estructura en #[em NoSQL]
+          span Denominaciones de la estructura en #[em No-SQL]
         
         figure
-          img.mb-4(src='@/assets/curso/temas/tema3/img17.png', alt='La imagen presenta los nombres de cada elemento de las bases de datos NoSQL.')
+          img.mb-4(src='@/assets/curso/temas/tema3/img17.png', alt='La imagen presenta los nombres de cada elemento de las bases de datos No-SQL.')
     
     .bg-52.py-lg-5.p-2
       .row.justify-content-center.align-items-center.mb-0.position-relative(data-aos="fade-left")

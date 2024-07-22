@@ -66,7 +66,7 @@
               tr
                 td.gra.text-center #[b #[em SAP]]
                 td.gra.marr https://www.sap.com/latinamerica/products/technology-platform/bpc.html
-                td.gra Con muchos #[em softwares] corporativos, incorpora ahora herramientas de #[em ETL] y de inteligencia de negocios
+                td.gra Con muchos #[em softwares] corporativos, incorpora ahora herramientas de #[em ETL] y de inteligencia de negocios.
               tr
                 td.gre.text-center #[b #[em Microsoft]]
                 td.gre.marr https://powerbi.microsoft.com/es-es/what-is-business-intelligence/ 

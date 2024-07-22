@@ -24,7 +24,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-        p.mb-4.my-3 Las bodegas de datos son el corazón de la inteligencia de negocios, pues allí se almacena de manera incremental toda la información producida por la organización. De otra parte, cuando se establecen desarrollos completos de analítica de datos es necesario contar con infraestructura y gestión de almacenamiento robustas que den respuesta a las exigencias de la cantidad y variedad de datos que se presentan.
+        p.mb-4.my-3 Las bodegas de datos son el corazón de la inteligencia de negocios, pues allí se almacena de manera incremental toda la información producida por la organización. De otra parte, cuando se establecen desarrollos completos de analítica de datos, es necesario contar con infraestructura y gestión de almacenamiento robustas que den respuesta a las exigencias de la cantidad y variedad de datos que se presentan.
         p.mb-2 Para grandes empresas, es posible que se cuente con especialistas para cada proceso del flujo de datos y el almacenamiento de las bodegas de datos requieren especialistas en gestión de bases de datos y manejar muy bien las arquitecturas y disposición de la información en los diversos clústeres de datos que se puedan emplear.
       .col-lg-4.col-10.order-lg-2.order-1.mb-lg-0(data-aos="fade-left")
         img.img-a.img-t(src="@/assets/curso/temas/tema4/img2.png")
@@ -50,7 +50,7 @@
     
     .row.justify-content-center.align-items-center
       .col-lg-12.order-lg-1.order-2(data-aos="fade-right")
-        p.mb-4 Uno de los aspectos más importantes a tener en cuenta son las tendencias tecnológicas y de consumo, pues a partir de ello los proyectos empiezan a tener aceptación y éxito. Se debe tener siempre presente qué está funcionando en la industria, cuáles son las prácticas de las grandes corporaciones, qué consume el público objetivo y cómo compra, para alinearse hacia estas tendencias buscando mejorar las probabilidades de éxito de las organizaciones.
+        p.mb-4 Uno de los aspectos más importantes a tener en cuenta son las tendencias tecnológicas y de consumo, pues a partir de ello los proyectos empiezan a tener aceptación y éxito. Se debe tener siempre presente qué está funcionando en la industria, cuáles son las prácticas de las grandes corporaciones, qué consume el público objetivo y cómo compra, para alinearse hacia estas tendencias, buscando mejorar las probabilidades de éxito de las organizaciones.
     
     .row.bgf.align-items-center.py-md-5.p-3
       .col-lg-12.col-12.px-lg-5.px-4
@@ -133,7 +133,7 @@
       .col-lg-8.col-12
         .cajon.color-serv.p-4.mb-lg-0
           p.mx-0.my-0 #[b Las aplicaciones #[em OLAP]] son uno de los pilares de cualquier solución de Inteligencia de Negocios, debido a que provee información sumarizada a los que toman las decisiones, mediante métodos convenientes de navegación que les permiten analizar y mantener una conversación fluida con los datos de la organización, en óptimos tiempos de respuesta.
-        p.mb-5.my-3 Parte de la utilidad de los cubos de datos es que podrían ser consumidos por cada área del negocio, es decir, por cada departamento o área tener acceso a sus datos específicos y construir sus reportes en una aplicación local ya sea Excel, Power BI, Tableau u otro disponible.
+        p.mb-5.my-3 Parte de la utilidad de los cubos de datos es que podrían ser consumidos por cada área del negocio, es decir, por cada departamento o área, tener acceso a sus datos específicos y construir sus reportes en una aplicación local, ya sea Excel, Power BI, Tableau u otro disponible.
       .col-lg-4.col-8
         img.mx-0.my-1.jar.d-none.d-lg-block(alt="" src="@/assets/curso/temas/tema4/img9.png")
 

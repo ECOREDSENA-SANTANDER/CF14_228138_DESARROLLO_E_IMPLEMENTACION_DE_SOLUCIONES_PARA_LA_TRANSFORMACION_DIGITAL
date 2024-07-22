@@ -30,10 +30,10 @@
                   p.mb-0 Claridad de la información y seguridad en el acceso de un lugar seguro. 
                 li.mb-0 
                   i.fas.fa-chevron-right.der
-                  p.mb-0 Confiabilidad de los datos obteniendo información fidedigna veraz, visible y auditable por si se debe modificar. 
+                  p.mb-0 Confiabilidad de los datos obteniendo información fidedigna, veraz, visible y auditable por si se debe modificar. 
                 li.mb-0 
                   i.fas.fa-chevron-right.der
-                  p.mb-0 Comprensible y con capacidad de repetición asegurando su entendimiento para generar estrategias. 
+                  p.mb-0 Comprensible y con capacidad de repetición, asegurando su entendimiento para generar estrategias. 
     
     p.mb-2 #[b Ahora, para preparar los datos estructurados se siguen las siguientes fases:]
     
